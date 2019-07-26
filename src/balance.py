@@ -5,7 +5,7 @@ from random import shuffle
 
 SEED1 = 0
 SEED2 = 1
-
+max_occ = 1000
 
 def get_set_from_file(filename):
     file = io.open(filename, "r", encoding="utf8")
@@ -28,6 +28,11 @@ if __name__ == '__main__':
     seed1 = get_set_from_file(sys.argv[1])
     seed2 = get_set_from_file(sys.argv[2])
     for filename in os.listdir(in_dir):
+        occ = {}
+        for n in seed1:
+            occ[n] = 0
+        for n in seed2 :
+            occ[n] = 0
         file = io.open(os.path.join(in_dir, filename), "r", encoding="utf8")
         result_file = io.open(os.path.join(out_dir, filename), "w", encoding="utf8")
         id = []
@@ -39,6 +44,7 @@ if __name__ == '__main__':
         current_s2 = 0
         nb_s1 = 0
         nb_s2 = 0
+        flag = True
         for line in file:
             if "#id_" in line:
                 current_id = int(line[4:-1])
@@ -46,23 +52,30 @@ if __name__ == '__main__':
             if len(line) != 7:
                 continue
             if line[1] == "NOUN" and line[3] in seed1:
+                if occ[line[3]] >= max_occ:
+                    flag = False
+                occ[line[3]] += 1
                 current_s1 += 1
-                nb_s1 += 1
             if line[1] == "NOUN" and line[3] in seed2:
+                if occ[line[3]] >= max_occ:
+                    flag = False
+                occ[line[3]] += 1
                 current_s2 += 1
-                nb_s2 += 1
             if line[6] == "1\n":
-                if current_s1 != 0 or current_s2 != 0:
+                if (current_s1 != 0 or current_s2 != 0) and flag is True:
                     id.append(current_id)
                     new_sentence = {SEED1: current_s1, SEED2: current_s2}
                     if current_s1 > current_s2:
                         seed1_sentence[current_id] = new_sentence
                     else:
                         seed2_sentence[current_id] = new_sentence
+                    nb_s1 += current_s1
+                    nb_s2 += current_s2
                     current_s1 = 0
                     current_s2 = 0
-        if id == []:
-            print("No id for file " + file + " .")
+                flag = True
+        if not id:
+            print("No id for file " + filename + " .")
             continue
 
         if nb_s1 > nb_s2:

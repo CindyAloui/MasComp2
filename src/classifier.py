@@ -44,7 +44,7 @@ def get_index(w, vocab):
 vocab_words = get_dir_from_file("data/vocabs/words")
 vocab_lemmas = get_dir_from_file("data/vocabs/lemmas")
 vocab_morphos = get_dir_from_file("data/vocabs/morphos")
-position_size = 2000
+position_size = 300
 
 
 def new_lstm_model():
@@ -162,6 +162,9 @@ class Classifier:
                                     new_positions_left.append(abs(p - word_positions[i]))
                                 if p > word_positions[i]:
                                     new_positions_right.append(abs(p - word_positions[i]))
+
+                            if len(new_positions_left) >= position_size or len(new_positions_right) >= position_size:
+                                continue
                             words_left.append(current_words[:word_positions[i]])
                             lemmas_left.append(current_lemmas[:word_positions[i]])
                             morphos_left.append(current_morphos[:word_positions[i]])
@@ -210,7 +213,7 @@ class Classifier:
                             morphos_right = []
                             positions_right = []
                             morpho = []
-                if words_left and filename == dev_filename:
+                if words_left and filename != dev_filename:
                     add_padding(words_left)
                     add_padding(words_right)
                     add_padding(lemmas_right)
@@ -230,7 +233,7 @@ class Classifier:
                 best_loss = total_loss
                 self.save(model_filename)
             else:
-                print("Best loss: " + best_loss)
+                print("Best loss: " + str(best_loss))
                 return
 
     def save(self, model_filename):
