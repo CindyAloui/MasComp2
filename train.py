@@ -13,5 +13,5 @@ def print_usage_and_exit():
 if __name__ == '__main__':
     if len(sys.argv) != 5:
         print_usage_and_exit()
-    classifier = Classifier(sys.argv[1], sys.argv[2])
+    classifier = Classifier(class1_file=sys.argv[1], class2_file=sys.argv[2])
     classifier.train(sys.argv[3], sys.argv[4])

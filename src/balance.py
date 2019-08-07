@@ -31,7 +31,7 @@ if __name__ == '__main__':
         occ = {}
         for n in seed1:
             occ[n] = 0
-        for n in seed2 :
+        for n in seed2:
             occ[n] = 0
         file = io.open(os.path.join(in_dir, filename), "r", encoding="utf8")
         result_file = io.open(os.path.join(out_dir, filename), "w", encoding="utf8")

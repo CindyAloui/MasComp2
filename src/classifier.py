@@ -11,7 +11,7 @@ embed_word_dim = 128
 embed_lemma_dim = 128
 embed_morpho_dim = 32
 embed_position_dim = 32
-nb_epochs = 1
+nb_epochs = 50
 batch_size = 128
 
 
