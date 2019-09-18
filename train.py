@@ -3,7 +3,7 @@ import sys
 from src.classifier import Classifier
 import tensorflow as tf
 
-tf.logging.set_verbosity(tf.logging.ERROR)
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 def print_usage_and_exit():
     print("Usage: " + sys.argv[0] + " <fileClass1> <fileClass2> <corpusDir> <modelFileName>")

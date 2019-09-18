@@ -25,9 +25,21 @@ if __name__ == '__main__':
         print_usage_and_exit()
     in_dir = sys.argv[3]
     out_dir = sys.argv[4]
-    seed1 = get_set_from_file(sys.argv[1])
-    seed2 = get_set_from_file(sys.argv[2])
+    seed1_train = get_set_from_file(sys.argv[1] + "-train.txt")
+    seed1_dev = get_set_from_file(sys.argv[1] + "-dev.txt")
+    seed2_train = get_set_from_file(sys.argv[2] + "-train.txt")
+    seed2_dev = get_set_from_file(sys.argv[2] + "-dev.txt")
+
     for filename in os.listdir(in_dir):
+        print(filename)
+        if filename == "dev.mcf":
+            print("ok")
+            seed1 = seed1_dev
+            seed2 = seed2_dev
+        else:
+            seed1 = seed1_train
+            seed2 = seed2_train
+
         occ = {}
         for n in seed1:
             occ[n] = 0
@@ -42,6 +54,11 @@ if __name__ == '__main__':
         current_id = None
         current_s1 = 0
         current_s2 = 0
+        current_occ = {}
+        for n in seed1:
+            current_occ[n] = 0
+        for n in seed2:
+            current_occ[n] = 0
         nb_s1 = 0
         nb_s2 = 0
         flag = True
@@ -54,12 +71,12 @@ if __name__ == '__main__':
             if line[1] == "NOUN" and line[3] in seed1:
                 if occ[line[3]] >= max_occ:
                     flag = False
-                occ[line[3]] += 1
+                current_occ[line[3]] += 1
                 current_s1 += 1
             if line[1] == "NOUN" and line[3] in seed2:
                 if occ[line[3]] >= max_occ:
                     flag = False
-                occ[line[3]] += 1
+                current_occ[line[3]] += 1
                 current_s2 += 1
             if line[6] == "1\n":
                 if (current_s1 != 0 or current_s2 != 0) and flag is True:
@@ -69,10 +86,19 @@ if __name__ == '__main__':
                         seed1_sentence[current_id] = new_sentence
                     else:
                         seed2_sentence[current_id] = new_sentence
+                    for n in seed1:
+                        occ[n] += current_occ[n]
+                    for n in seed2:
+                        occ[n] += current_occ[n]
                     nb_s1 += current_s1
                     nb_s2 += current_s2
-                    current_s1 = 0
-                    current_s2 = 0
+
+                for n in seed1:
+                    current_occ[n] = 0
+                for n in seed2:
+                    current_occ[n] = 0
+                current_s1 = 0
+                current_s2 = 0
                 flag = True
         if not id:
             print("No id for file " + filename + " .")
