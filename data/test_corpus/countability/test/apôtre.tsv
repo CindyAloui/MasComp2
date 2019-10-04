@@ -1,0 +1,383 @@
+#C
+Comme	ADP	_	Comme	2	case	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	9	obl:mod	0
+auprès	ADV	_	auprès	-1	advmod	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+aveugle	NOUN	Gender=Fem|Number=Sing	aveugle	-3	obl:arg	0
+Bartimée	ADJ	Gender=Fem|Number=Sing	Bartimé	-1	amod	0
+,	PUNCT	_	,	-6	punct	0
+nous	PRON	Gender=Masc|Number=Plur|Person=1	il	2	nsubj:pass	0
+sommes	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	être	1	aux:pass	0
+invités	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	inviter	0	root	0
+à	ADP	_	à	1	mark	0
+dire	VERB	VerbForm=Inf	dire	-2	xcomp	0
+nous	PRON	Gender=Masc|Number=Plur|Person=1|PronType=Prs	il	-1	obj	0
+aussi	ADV	_	aussi	-2	advmod	0
+:	PUNCT	_	:	2	punct	0
+"	PUNCT	_	"	1	punct	0
+Confiance	NOUN	Gender=Fem|Number=Sing	Confiance	-5	obj	0
+,	PUNCT	_	,	-1	punct	0
+lève-toi	NOUN	Gender=Masc|Number=Sing	lève-toi	-2	nmod	0
+.	PUNCT	_	.	-10	punct	1
+#C
+»	PUNCT	_	»	4	punct	0
+Il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	Il	3	nsubj	0
+n'	ADV	Polarity=Neg	ne	2	advmod	0
+en	PRON	Person=3	en	1	expl	0
+imitera	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	imiter	0	root	0
+pas	ADV	Polarity=Neg	pas	-1	advmod	0
+moins	ADV	_	moins	-2	advmod	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+défection	NOUN	Gender=Fem|Number=Sing	défection	-4	obj	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	2	det	0
+autres	ADJ	Gender=Masc|Number=Plur	autre	1	amod	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	-3	nmod	0
+,	PUNCT	_	,	-8	punct	0
+après	ADP	_	après	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+arrestation	NOUN	Gender=Fem|Number=Sing	arrestation	-11	obl	0
+de	ADP	_	de	2	case	0
+son	DET	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	son	1	det	0
+Maître	NOUN	Gender=Masc|Number=Sing	maître	-3	nmod	0
+au	ADP	_	à	1	case	0
+jardin	NOUN	Gender=Masc|Number=Sing	jardin	-2	nmod	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+Agonie	NOUN	Gender=Fem|Number=Sing	Agonie	-3	nmod	0
+.	PUNCT	_	.	-20	punct	1
+#C
+Aussi	ADV	_	Aussi	3	advmod	0
+,	PUNCT	_	,	-1	punct	0
+nous	PRON	Gender=Masc|Number=Plur|Person=1	il	1	nsubj	0
+pouvons	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	pouvoir	0	root	0
+lire	VERB	VerbForm=Inf	lire	-1	xcomp	0
+ainsi	ADV	_	ainsi	-1	advmod	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+déclaration	NOUN	Gender=Fem|Number=Sing	déclaration	-3	obj	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+apôtre	NOUN	Gender=Masc|Number=Sing	apôtre	-3	nmod	0
+Saint	NOUN	Gender=Masc|Number=Sing	Saint	-1	nmod	0
+Paul	PROPN	Gender=Masc|Number=Sing	Paul	-1	fixed	0
+:	PUNCT	_	:	-10	punct	0
+"	PUNCT	_	"	-11	punct	0
+Il	PRON	Gender=Masc|Number=Sing|Person=3	Il	3	nsubj	0
+nous	PRON	Gender=Masc|Number=Plur|Person=1	il	2	obj	0
+a	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	1	aux	0
+enrichis	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	enrichir	-15	parataxis	0
+de	ADP	_	de	2	case	0
+toute	DET	Gender=Fem|Number=Sing	tout	1	det	0
+richesse	NOUN	Gender=Fem|Number=Sing	richesse	-3	obl	0
+dans	ADP	_	dans	2	case	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+lieux	NOUN	Gender=Masc|Number=Plur	lieu	-6	obl	0
+célestes	ADJ	Gender=Masc|Number=Plur	céleste	-1	amod	0
+en	ADP	_	en	1	case	0
+Jésus	PROPN	_	Jésus	-3	nmod	0
+"	PUNCT	_	"	-4	punct	0
+.	PUNCT	_	.	-26	punct	1
+#C
+Il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	Il	1	nsubj	0
+minimise	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	minimiser	0	root	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+rôle	NOUN	Gender=Masc|Number=Sing	rôle	-2	obj	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+autorités	NOUN	Gender=Fem|Number=Plur	autorité	-4	obj	0
+romaines	ADJ	Gender=Fem|Number=Plur	romain	-1	amod	0
+,	PUNCT	_	,	2	punct	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+lâcheté	NOUN	Gender=Fem|Number=Sing	lâcheté	-4	appos	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	-2	nmod	0
+.	PUNCT	_	.	-11	punct	1
+#C
+Bonjour	INTJ	_	Bonjour	18	advmod	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+missionnaires	NOUN	Gender=Masc|Number=Plur	missionnaire	-2	obj	0
+du	ADP	_	du	1	case	0
+forum	NOUN	Gender=Masc|Number=Sing	forum	-2	nmod	0
+Mission	PROPN	_	Mission	-3	appos	0
+Pêche	PROPN	_	Pêche	-1	flat:name	0
+,	PUNCT	_	,	-7	punct	0
+que	SCONJ	_	que	3	mark	0
+vous	PRON	Number=Plur|Person=2|PronType=Prs	il	2	nsubj	0
+soyez	VERB	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	être	1	cop	0
+apôtre	NOUN	Gender=Masc|Number=Sing	apôtre	-11	ccomp	0
+ou	CCONJ	_	ou	1	cc	0
+pas	ADV	_	pas	-2	conj	0
+,	PUNCT	_	,	-14	punct	0
+vous	PRON	Number=Plur|Person=2|PronType=Prs	il	3	nsubj	0
+êtes	AUX	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	être	2	cop	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+pêcheurs	NOUN	Gender=Masc|Number=Plur	pêcheur	0	root	0
+.	PUNCT	_	.	-1	punct	1
+#C
+Je	PRON	Number=Sing|Person=1|PronType=Prs	il	2	nsubj	0
+ne	ADV	Polarity=Neg	ne	1	advmod	0
+sais	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	savoir	0	root	0
+même	ADV	_	même	-1	advmod	0
+plus	ADV	_	plus	-2	advmod	0
+qui	PRON	PronType=Rel	qui	1	nsubj	0
+sont	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	-4	acl:relcl	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	3	det	0
+deux	NUM	_	deux	2	nummod	0
+autres	ADJ	Gender=Masc|Number=Plur	autre	1	amod	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	-4	obj	0
+.	PUNCT	_	.	-9	punct	1
+#C
+Les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	Le	1	det	0
+Saints	NOUN	Gender=Masc|Number=Plur	Saint	15	nsubj	0
+et	CCONJ	_	et	2	cc	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+Saintes	PROPN	_	Saintes	-3	conj	0
+d'	ADP	_	de	-1	fixed	0
+Europe	PROPN	_	Europe	-2	fixed	0
+,	PUNCT	_	,	-3	punct	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	-4	nmod	0
+dans	ADP	_	dans	2	case	0
+leur	DET	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	son	1	det	0
+époque	NOUN	Gender=Fem|Number=Sing	époque	-3	nmod	0
+ou	CCONJ	_	ou	1	cc	0
+aujourd'hui	ADV	_	aujourd'hui	-5	conj	0
+,	PUNCT	_	,	-10	punct	0
+nous	PRON	Number=Plur|Person=1|PronType=Prs	il	1	nsubj	0
+montrent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	montrer	0	root	0
+que	SCONJ	_	que	7	mark	0
+ces	DET	Gender=Fem|Number=Plur|PronType=Dem	ce	2	det	0
+deux	NUM	Gender=Fem|Number=Plur|NumType=Card	deux	1	nummod	0
+attitudes	NOUN	Gender=Fem|Number=Plur	attitude	4	nsubj	0
+ne	ADV	Polarity=Neg	ne	3	advmod	0
+sont	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+pas	ADV	Polarity=Neg	pas	1	advmod	0
+incompatibles	ADJ	Gender=Masc|Number=Plur	incompatible	-8	ccomp	0
+.	PUNCT	_	.	-9	punct	1
+#C
+Parmi	ADP	_	Parmi	3	case	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	2	det	0
+meilleurs	ADJ	Gender=Masc|Number=Plur	meilleur	1	amod	0
+groupes	NOUN	Gender=Masc|Number=Plur	groupe	8	obl:mod	0
+dubs	ADP	_	dubs	1	case	0
+europeens	NOUN	Gender=Masc|Number=Plur	europeen	-2	nmod	0
+,	PUNCT	_	,	-3	punct	0
+ces	DET	Gender=Masc|Number=Plur|PronType=Dem	ce	1	det	0
+lyonnais	ADJ	Gender=Masc|Number=Plur	lyonnais	3	nsubj	0
+sont	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	0	root	0
+d'	ADP	_	de	2	case	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+modernité	NOUN	Gender=Fem|Number=Sing	modernité	-3	nmod	0
+dubesque	ADJ	Gender=Fem|Number=Sing	dubesque	-1	amod	0
+...	PUNCT	_	...	-5	punct	1
+Chaque	DET	Gender=Masc|Number=Sing	Chaque	1	det	0
+concert	NOUN	Gender=Masc|Number=Sing	concert	3	nsubj	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+l'	DET	Definite=Def|Number=Sing|PronType=Art	le	1	det	0
+occasion	NOUN	Gender=Fem|Number=Sing	occasion	0	root	0
+de	ADP	_	de	1	mark	0
+propager	VERB	VerbForm=Inf	propager	-2	acl	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+vibe	NOUN	Gender=Fem|Number=Sing	vibe	-2	obj	0
+!	PUNCT	_	!	-5	punct	1
+#C
+C'	PRON	Gender=Masc|Number=Sing|Person=3	Ce	3	nsubj	0
+est	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+sens	NOUN	Gender=Masc|Number=Sing	sens	0	root	0
+inverse	ADJ	Gender=Masc|Number=Sing	inverse	-1	amod	0
+du	DET	Gender=Masc|Number=Sing	du	1	det	0
+cheminement	NOUN	Gender=Masc|Number=Sing	cheminement	-3	nmod	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	-2	nmod	0
+.	PUNCT	_	.	-6	punct	1
+#C
+Telle	ADJ	Gender=Fem|Number=Sing	Tel	3	nsubj	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+promesse	NOUN	Gender=Fem|Number=Sing	promesse	0	root	0
+du	ADP	_	du	1	case	0
+Christ	PROPN	_	Christ	-2	nmod	0
+à	ADP	_	à	2	case	0
+ses	DET	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	son	1	det	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	-5	nmod	0
+au	ADP	_	à	1	case	0
+jour	NOUN	Gender=Masc|Number=Sing	jour	-2	nmod	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+Ascension	NOUN	Gender=Fem|Number=Sing	Ascension	-5	nmod	0
+,	PUNCT	_	,	1	punct	0
+telle	ADJ	Gender=Fem|Number=Sing	tel	-12	amod	0
+est	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	-1	cop	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+invitation	NOUN	Gender=Fem|Number=Sing	invitation	-3	nsubj	0
+lancée	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	lancer	-1	acl	0
+par	ADP	_	par	1	case	0
+Benoît	PROPN	_	Benoît	-2	obl:agent	0
+XVI	NUM	_	XVI	-1	nmod	0
+aux	ADP	Gender=Masc|Number=Plur	à	-20	_	0
+jeunes	ADJ	Gender=Masc|Number=Plur	jeune	-21	_	0
+du	ADP	_	du	1	case	0
+monde	NOUN	Gender=Masc|Number=Sing	monde	-23	_	0
+entier	ADJ	Gender=Masc|Number=Sing	entier	-1	amod	0
+.	PUNCT	_	.	-25	_	1
+#C
+399	SYM	_	399	6	obl:mod	0
+avant	ADP	_	avant	1	case	0
+JC	PROPN	_	JC	-2	nmod	0
+:	PUNCT	_	:	-3	punct	0
+Socrate	PROPN	_	Socrate	2	nsubj:pass	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	1	aux:pass	0
+condamné	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	condamner	0	root	0
+à	ADP	_	à	1	mark	0
+boire	VERB	VerbForm=Inf	boire	-2	xcomp	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+ciguë	NOUN	Gender=Fem|Number=Sing	ciguë	-2	obj	0
+pour	ADP	_	pour	3	mark	0
+s'	PRON	Person=3|PronType=Prs	se	2	expl	0
+être	AUX	VerbForm=Inf	être	1	aux	0
+fait	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	faire	-6	advcl	0
+l'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+apôtre	NOUN	Gender=Masc|Number=Sing	apôtre	-2	obj	0
+de	ADP	_	de	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+justice	NOUN	Gender=Fem|Number=Sing	justice	-3	nmod	0
+.	PUNCT	_	.	-14	punct	1
+#C
+Judas	NOUN	Gender=Masc|Number=Sing	Judas	0	root	0
+,	PUNCT	_	,	-1	_	0
+pour	ADP	_	pour	2	case	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+raisons	NOUN	Gender=Fem|Number=Plur	raison	-4	_	0
+un	DET	Gender=Masc|Number=Sing	un	2	advmod	0
+peu	ADV	_	peu	-1	fixed	0
+louches	ADJ	Gender=Fem|Number=Plur	louche	-3	amod	0
+,	PUNCT	_	,	-8	_	0
+comme	SCONJ	_	comme	2	mark	0
+il	PRON	Gender=Masc|Number=Sing|Person=3	il	1	nsubj	0
+gardait	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	garder	-11	_	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+bourse	NOUN	Gender=Fem|Number=Sing	bourse	-2	obj	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	-4	obj	0
+et	CCONJ	_	et	3	cc	0
+qu'	SCONJ	_	que	2	mark	0
+il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	il	1	nsubj	0
+puisait	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	puiser	-8	conj	0
+dedans	ADV	_	dedans	-1	advmod	0
+(	PUNCT	_	(	3	punct	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+indélicatesse	NOUN	Gender=Fem|Number=Sing	indélicatesse	1	nsubj	0
+existaient	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	exister	-5	parataxis	0
+déjà	ADV	_	déjà	-1	advmod	0
+!	PUNCT	_	!	-2	punct	1
+#C
+Pendant	ADP	_	Pendant	2	case	0
+ce	DET	Gender=Masc|Number=Sing|PronType=Dem	ce	1	det	0
+temps	NOUN	Gender=Masc|Number=Sing	temps	11	obl	0
+trois	NUM	Gender=Masc|Number=Plur|NumType=Card	trois	-1	nummod	0
+amis	NOUN	Gender=Masc|Number=Plur	ami	-2	nmod	0
+,	PUNCT	_	,	8	punct	0
+trois	NUM	_	trois	1	nummod	0
+élus	NOUN	Gender=Masc|Number=Plur	élu	6	nsubj	0
+parmi	ADP	_	parmi	3	case	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	2	det	0
+douze	ADJ	Gender=Masc|Number=Plur|NumType=Card	douze	1	amod	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	-4	nmod	0
+,	PUNCT	_	,	1	punct	0
+dorment	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	dormir	0	root	0
+!	PUNCT	_	!	-1	punct	1
+#C
+Le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	Le	1	det	0
+nombre	NOUN	Gender=Masc|Number=Sing	nombre	6	nsubj	0
+de	ADP	_	de	1	case	0
+plats	NOUN	Gender=Masc|Number=Plur	plat	-2	nmod	0
+lui	PRON	Number=Sing|Person=3|PronType=Prs	lui	3	iobj	0
+aussi	ADV	_	aussi	2	advmod	0
+était	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	être	1	cop	0
+rituel	NOUN	Gender=Masc|Number=Sing	rituel	0	root	0
+-	PUNCT	_	-	-1	punct	0
+12	NUM	NumType=Card	12	-2	nummod	0
+-	PUNCT	_	-	-1	fixed	0
+comme	ADP	_	comme	2	case	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+apôtres	NOUN	Gender=Masc|Number=Plur	apôtre	-4	nmod	0
+.	PUNCT	_	.	-7	punct	1
+#C
+Sillon	NOUN	Gender=Fem|Number=Sing	Sillon	0	root	0
+,	PUNCT	_	,	-1	_	0
+813	PUNCT	_	813	-2	_	0
+Si	SCONJ	_	Si	2	mark	0
+tu	PRON	Number=Sing|Person=2|PronType=Prs	il	1	nsubj	0
+es	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	es	-5	_	0
+apôtre	NOUN	Gender=Masc|Number=Sing	apôtre	-1	obj	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+mort	NOUN	Gender=Fem|Number=Sing	mort	-3	obj	0
+te	PRON	Person=3|PronType=Prs	lui	4	iobj	0
+sera	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	être	3	cop	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	2	det	0
+bonne	ADJ	Gender=Fem|Number=Sing	bon	1	amod	0
+amie	NOUN	Gender=Fem|Number=Sing	amie	-5	acl:relcl	0
+qui	PRON	PronType=Rel	qui	1	nsubj	0
+aplanira	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	aplanir	-2	acl:relcl	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+chemin	NOUN	Gender=Masc|Number=Sing	chemin	-2	obj	0
+.	PUNCT	_	.	-18	_	1
+#C
+Au	NOUN	Gender=Masc|Number=Sing	à	8	advmod	0
+milieu	NOUN	Gender=Masc|Number=Sing	milieu	-1	nmod	0
+de	ADP	_	de	3	case	0
+toutes	ADJ	Gender=Fem|Number=Plur	tout	2	amod	0
+ses	DET	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	son	1	det	0
+épreuves	NOUN	Gender=Fem|Number=Plur	épreuve	-4	nmod	0
+,	PUNCT	_	,	-6	punct	0
+elle	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	il	1	nsubj	0
+vivait	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	vivre	0	root	0
+intensément	ADV	_	intensément	-1	advmod	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+conseil	NOUN	Gender=Masc|Number=Sing	conseil	-3	obj	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Number=Sing|PronType=Art	le	1	det	0
+Apôtre	NOUN	_	Apôtre	-3	nmod	0
+:	PUNCT	_	:	-7	punct	0
+«	PUNCT	_	«	6	punct	0
+Soyez	AUX	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	être	5	cop	0
+toujours	ADV	_	toujours	4	advmod	0
+[	PUNCT	_	[	3	punct	0
+...	PUNCT	_	...	2	punct	0
+]	PUNCT	_	]	1	punct	0
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C

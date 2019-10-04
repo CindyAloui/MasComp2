@@ -1,0 +1,350 @@
+#C
+Sous	ADP	_	Sous	2	case	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+capot	NOUN	Gender=Masc|Number=Sing	capot	0	root	0
+,	PUNCT	_	,	-1	_	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+bloc	NOUN	Gender=Masc|Number=Sing	bloc	-3	_	0
+6	NUM	_	6	-1	nmod	0
+cylindres	NOUN	Gender=Masc|Number=Plur	cylindre	-1	nmod	0
+de	ADP	_	de	2	case	0
+3453	NUM	_	3453	1	nummod	0
+cm	NOUN	Gender=Masc|Number=Plur	cm	-5	nmod	0
+3	NUM	_	3	-1	nmod	0
+developpant	ADP	_	developpant	1	case	0
+277	NUM	_	277	-3	nmod	1
+CV	ADJ	_	CV	0	root	0
+à	ADP	_	à	2	case	0
+6900	NUM	_	6900	1	nummod	0
+tours	NOUN	Gender=Masc|Number=Plur	tour	-3	obl:arg	0
+.	PUNCT	_	.	-4	punct	1
+#C
+La	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	Le	1	det	0
+masse	NOUN	Gender=Fem|Number=Sing	masse	6	nsubj	0
+du	DET	Gender=Masc|Number=Sing	du	1	det	0
+cylindre	NOUN	Gender=Masc|Number=Sing	cylindre	-2	nmod	0
+gazeux	ADJ	Gender=Masc|Number=Sing	gazeux	-1	amod	0
+ne	ADV	Polarity=Neg	ne	2	advmod	0
+se	PRON	Gender=Masc|Number=Sing|Person=3|Reflex=Yes	se	1	expl	0
+calcule	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	calculer	0	root	0
+plus	ADV	Polarity=Neg	plus	-1	advmod	0
+comme	ADP	_	comme	1	case	0
+précédemment	ADV	_	précédemment	-3	obl	0
+,	PUNCT	_	,	-4	punct	0
+puisque	SCONJ	_	puisque	-5	_	0
+?	PUNCT	_	?	-6	_	1
+#C
+Pour	ADP	_	Pour	2	mark	0
+être	AUX	VerbForm=Inf	être	1	aux:pass	0
+ramené	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	ramener	6	advcl	0
+au	ADP	_	à	1	case	0
+cas	NOUN	Gender=Masc|Number=Sing	cas	-2	obl	0
+précédent	ADJ	Gender=Masc|Number=Sing	précédent	-1	amod	0
+,	PUNCT	_	,	2	punct	0
+on	PRON	Gender=Masc|Number=Sing|Person=3	il	1	nsubj	0
+considère	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	considérer	0	root	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+cylindre	NOUN	Gender=Masc|Number=Sing	cylindre	-2	obj	0
+de	ADP	_	de	1	case	0
+hauteur	NOUN	Gender=Fem|Number=Sing	hauteur	-2	nmod	0
+infiniment	ADV	_	infiniment	1	advmod	0
+petite	ADJ	Gender=Fem|Number=Sing	petit	-4	amod	0
+,	PUNCT	_	,	-5	punct	0
+dz	ADV	_	dz	-6	advmod	0
+,	PUNCT	_	,	-7	punct	0
+situé	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	situer	-8	acl	0
+au	ADP	_	à	1	case	0
+niveau	NOUN	Gender=Masc|Number=Sing	niveau	-2	obl	0
+z	PUNCT	_	z	-11	punct	0
+,	PUNCT	_	,	-12	punct	0
+et	CCONJ	_	et	2	cc	0
+de	ADP	_	de	1	case	0
+masse	NOUN	Gender=Fem|Number=Sing	masse	-15	conj	0
+volumique	PRON	_	volumique	-1	nmod	0
+?	PUNCT	_	?	-19	punct	1
+#C
+La	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	Le	1	det	0
+différence	NOUN	Gender=Fem|Number=Sing	différence	0	root	0
+de	ADP	_	de	1	case	0
+pression	NOUN	Gender=Fem|Number=Sing	pression	-2	nmod	0
+,	PUNCT	_	,	-3	_	0
+dp	SCONJ	_	dp	9	mark	0
+,	PUNCT	_	,	8	punct	0
+entre	ADP	_	entre	3	case	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	2	det	0
+deux	NUM	_	deux	1	nummod	0
+faces	NOUN	Gender=Fem|Number=Plur	face	4	obl	0
+du	ADP	_	du	1	case	0
+cylindre	NOUN	Gender=Masc|Number=Sing	cylindre	-2	nmod	0
+s'	PRON	Person=3|PronType=Prs	se	1	expl:pass	0
+écrit	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	écrire	-13	_	0
+:	PUNCT	_	:	-14	_	0
+dp	ADP	_	dp	2	case	0
+${eq}	PUNCT	_	${eq}	1	punct	0
+–	NOUN	_	–	-17	_	0
+?	PUNCT	_	?	-1	punct	1
+#C
+Avec	ADP	_	Avec	2	case	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+trompette	NOUN	Gender=Fem|Number=Sing	trompette	5	obl:mod	0
+à	ADP	_	à	1	case	0
+palettes	ADV	Gender=Fem|Number=Plur	palette	-2	nmod	0
+,	PUNCT	_	,	-3	punct	0
+cela	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	cela	1	nsubj	0
+nettoie	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	nettoier	0	root	0
+en	ADP	_	en	-1	advmod	0
+même	ADJ	Number=Sing	même	-1	fixed	0
+temps	NOUN	Gender=Masc|Number=Plur	temps	-2	fixed	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+cylindres	NOUN	Gender=Masc|Number=Plur	cylindre	-5	obj	0
+,	PUNCT	_	,	5	punct	0
+du	ADP	_	du	4	advmod	0
+moins	ADV	_	moins	-1	fixed	0
+pour	ADP	_	pour	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+partie	NOUN	Gender=Fem|Number=Sing	partie	-11	obl	0
+qui	PRON	PronType=Rel	qui	2	nsubj:pass	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	1	aux:pass	0
+utilisée	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	utiliser	-3	acl:relcl	0
+dans	ADP	_	dans	2	case	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+doigté	NOUN	Gender=Masc|Number=Sing	doigté	-3	obl:mod	0
+"	PUNCT	_	"	-7	punct	0
+à	ADP	_	à	1	case	0
+vide	NOUN	Gender=Masc|Number=Sing	vide	-9	nmod	0
+"	PUNCT	_	"	-10	punct	0
+.	PUNCT	_	.	-22	punct	1
+#C
+Une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	Un	1	det	0
+fois	NOUN	Gender=Fem|Number=Sing	fois	5	obl:mod	0
+par	ADP	_	par	1	case	0
+an	NOUN	Gender=Masc|Number=Sing	an	-2	nmod	0
+,	PUNCT	_	,	-3	punct	0
+il	PRON	Gender=Masc|Number=Sing|Person=3	il	1	nsubj	0
+faut	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	falloir	0	root	0
+tout	ADV	_	tout	-1	advmod	0
+de	ADP	_	de	-1	fixed	0
+même	ADV	_	même	-2	fixed	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	2	det	0
+bon	ADJ	Gender=Masc|Number=Sing	bon	1	amod	0
+nettoyage	NOUN	Gender=Masc|Number=Sing	nettoyage	-6	obj	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+rotors	NOUN	Gender=Masc|Number=Plur	rotor	-2	nmod	0
+et	CCONJ	_	et	2	cc	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+cylindres	NOUN	Gender=Masc|Number=Plur	cylindre	-3	conj	0
+.	PUNCT	_	.	-12	punct	1
+#C
+Nettoyer	VERB	VerbForm=Inf	Nettoyer	0	root	0
+au	ADP	_	à	1	case	0
+pinceau	NOUN	Gender=Masc|Number=Sing	pinceau	-2	obl	0
+avec	ADP	_	avec	4	mark	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	3	mark	0
+peu	ADV	_	peu	-1	fixed	0
+de	ADP	_	de	-2	fixed	0
+détartrant	VERB	Tense=Pres|VerbForm=Part	détartrer	-7	advcl	0
+l'	DET	Definite=Def|Number=Sing|PronType=Art	le	1	det	0
+intérieur	NOUN	Gender=Masc|Number=Sing	intérieur	-2	obj	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+cylindres	NOUN	Gender=Masc|Number=Plur	cylindre	-4	obj	0
+et	CCONJ	_	et	1	cc	0
+rincer	VERB	VerbForm=Inf	rincer	-6	conj	0
+.	PUNCT	_	.	-14	punct	1
+#C
+Ajuster	VERB	VerbForm=Inf	Ajuster	0	root	0
+finalement	ADV	_	finalement	-1	advmod	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+jeu	NOUN	Gender=Masc|Number=Sing	jeu	-3	obj	0
+vertical	ADJ	Gender=Masc|Number=Sing	vertical	-1	amod	0
+avec	ADP	_	avec	2	case	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+chapeau	NOUN	Gender=Masc|Number=Sing	chapeau	-7	obl	0
+du	ADP	_	du	1	case	0
+cylindre	NOUN	Gender=Masc|Number=Sing	cylindre	-2	nmod	0
+de	ADP	_	de	1	case	0
+façon	NOUN	Gender=Fem|Number=Sing	façon	-2	nmod	0
+à	ADP	_	à	1	mark	0
+concilier	VERB	VerbForm=Inf	concilier	-13	xcomp	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	2	det	0
+bonne	ADJ	Gender=Fem|Number=Sing	bon	1	amod	0
+étanchéité	NOUN	Gender=Fem|Number=Sing	étanchéité	-3	obj	0
+et	CCONJ	_	et	2	cc	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+mouvement	NOUN	Gender=Masc|Number=Sing	mouvement	-3	conj	0
+sans	ADP	_	sans	2	case	0
+aucun	DET	Gender=Masc|Number=Sing	aucun	1	det	0
+frottement	NOUN	Gender=Masc|Number=Sing	frottement	-3	nmod	0
+.	PUNCT	_	.	-23	punct	1
+#C
+6	NUM	NumType=Card	6	8	nsubj	0
+,	PUNCT	_	,	-1	fixed	0
+planche	NOUN	Gender=Fem|Number=Sing	planche	-2	fixed	0
+I	PROPN	_	I	-3	fixed	0
+)	PUNCT	_	)	-4	punct	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	3	cop	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	2	det	0
+petit	ADJ	Gender=Masc|Number=Sing	petit	1	amod	0
+cylindre	NOUN	Gender=Masc|Number=Sing	cylindre	0	root	0
+creux	ADJ	Gender=Masc|Number=Sing	creux	-1	amod	0
+que	PRON	PronType=Rel	que	3	obj	0
+l'	PART	_	l'	2	nsubj	0
+on	PRON	Gender=Masc|Number=Sing|Person=3	il	-1	fixed	0
+place	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	placer	-5	acl:relcl	0
+au	ADP	_	à	1	case	0
+fond	NOUN	Gender=Masc|Number=Sing	fond	-2	obl:mod	0
+de	ADP	_	de	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+capacité	NOUN	Gender=Fem|Number=Sing	capacité	-3	nmod	0
+intérieure	ADJ	Gender=Fem|Number=Sing	intérieur	-1	amod	0
+pour	ADP	_	pour	1	mark	0
+soutenir	VERB	VerbForm=Inf	soutenir	-8	advcl	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+matras	NOUN	Gender=Fem|Number=Plur	matra	-2	obj	0
+.	PUNCT	_	.	-16	punct	1
+#C
+Une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	Un	1	det	0
+fibre	NOUN	Gender=Fem|Number=Sing	fibre	5	nsubj	0
+musculaire	ADJ	Gender=Fem|Number=Sing	musculaire	-1	amod	0
+est	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	3	cop	0
+donc	ADV	_	donc	2	advmod	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+sorte	NOUN	Gender=Fem|Number=Sing	sorte	0	root	0
+de	ADP	_	de	1	case	0
+tube	NOUN	Gender=Masc|Number=Sing	tube	-2	nmod	0
+composé	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	composer	-3	acl	0
+de	ADP	_	de	1	case	0
+cylindres	NOUN	Gender=Masc|Number=Plur	cylindre	-2	obl	0
+(	PUNCT	_	(	-3	punct	0
+sarcomères	NOUN	Gender=Masc|Number=Plur	sarcomère	-4	obl	0
+)	PUNCT	_	)	-5	punct	0
+disposés	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	disposer	-9	acl	0
+en	ADP	_	en	1	case	0
+série	NOUN	Gender=Fem|Number=Sing	série	-2	obl	0
+(	PUNCT	_	(	-12	_	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+unes	PRON	Gender=Fem|Number=Plur	un	-14	_	0
+derrière	ADP	_	derrière	2	case	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+autres	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Rel	autre	-3	nmod	0
+)	PUNCT	_	)	-18	_	0
+.	PUNCT	_	.	-19	_	1
+#C
+vendredi	NOUN	Gender=Masc|Number=Sing	vendredi	0	root	0
+20	NUM	_	20	-1	nmod	0
+avril	NOUN	Gender=Masc|Number=Sing	avril	-1	nmod	0
+2007	NUM	_	2007	-1	nmod	0
+à	ADP	_	à	1	case	0
+21:46	NUM	_	21:46	-5	nmod	0
+,	PUNCT	_	,	-6	punct	0
+par	ADP	_	par	1	case	0
+madamedekeravel	NOUN	Gender=Masc|Number=Sing	madamedekeravel	-8	_	0
+:	PUNCT	_	:	-1	punct	1
+J'	PRON	Number=Sing|Person=1|PronType=Prs	il	3	nsubj	0
+ai	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	avoir	2	aux	0
+bien	ADV	_	bien	1	advmod	0
+aimé	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	aimer	0	root	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+parabole	NOUN	Gender=Fem|Number=Sing	parabole	-2	obj	0
+du	DET	Gender=Masc|Number=Sing	du	1	det	0
+cylindre	NOUN	Gender=Masc|Number=Sing	cylindre	-2	nmod	0
+et	CCONJ	_	et	2	cc	0
+du	DET	Gender=Masc|Number=Sing	du	1	det	0
+piston	NOUN	Gender=Masc|Number=Sing	piston	-3	conj	0
+(	PUNCT	_	(	-1	punct	0
+quoi	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Int	quoi	-2	nmod	0
+?	PUNCT	_	?	-3	punct	1
+#C
+Puisque	SCONJ	_	Puisque	6	mark	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+balle	NOUN	Gender=Fem|Number=Sing	balle	4	nsubj	0
+n'	ADV	Polarity=Neg	ne	3	advmod	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+pas	ADV	Polarity=Neg	pas	1	advmod	0
+parfaite	ADJ	Gender=Fem|Number=Sing	parfait	3	advcl	0
+,	PUNCT	_	,	2	punct	0
+elle	PRON	Gender=Fem|Number=Sing|Person=3	il	1	nsubj	0
+aura	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	avoir	0	root	0
+toujours	ADV	_	toujours	-1	advmod	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	2	det	0
+petites	ADJ	Gender=Fem|Number=Plur	petit	1	amod	0
+imperfections	NOUN	Gender=Fem|Number=Plur	imperfection	-4	obj	0
+,	PUNCT	_	,	-1	punct	0
+pareil	ADJ	Gender=Masc|Number=Sing	pareil	-2	amod	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+cylindre	NOUN	Gender=Masc|Number=Sing	cylindre	-8	obj	0
+et	CCONJ	_	et	2	cc	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+bords	NOUN	Gender=Masc|Number=Plur	bord	-3	conj	0
+et	CCONJ	_	et	2	cc	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+surface	NOUN	Gender=Fem|Number=Sing	surface	-6	conj	0
+de	ADP	_	de	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+table	NOUN	Gender=Fem|Number=Sing	table	-3	nmod	0
+de	ADP	_	de	1	case	0
+billard	NOUN	Gender=Masc|Number=Sing	billard	-2	nmod	0
+.	PUNCT	_	.	-20	punct	1
+#C
+Aujourd'hui	ADV	_	Aujourd'hui	2	advmod	0
+Une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	Un	1	det	0
+frange	NOUN	Gender=Fem|Number=Sing	frange	6	nsubj	0
+croissante	ADJ	Gender=Fem|Number=Sing	croissant	-1	amod	0
+de	ADP	_	de	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+population	NOUN	Gender=Fem|Number=Sing	population	-4	nmod	0
+n'	ADV	Polarity=Neg	ne	1	advmod	0
+a	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	0	root	0
+plus	ADV	Polarity=Neg	plus	-1	advmod	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+moyens	NOUN	Gender=Masc|Number=Plur	moyen	-3	obj	0
+de	ADP	_	de	2	mark	0
+faire	AUX	VerbForm=Inf	faire	1	aux:caus	0
+entretenir	VERB	VerbForm=Inf	entretenir	-3	acl	0
+son	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes	son	1	det	0
+véhicule	NOUN	Gender=Masc|Number=Sing	véhicule	-2	obj	0
+,	PUNCT	_	,	-9	punct	0
+à	ADP	_	à	6	case	0
+deux	NUM	NumType=Card	deux	5	det	0
+,	PUNCT	_	,	-1	fixed	0
+trois	NUM	NumType=Card	trois	-2	fixed	0
+,	PUNCT	_	,	2	punct	0
+quatre	NUM	NumType=Card	quatre	1	nummod	0
+cylindres	NOUN	Gender=Masc|Number=Plur	cylindre	-16	obl	0
+.	PUNCT	_	.	-17	punct	1
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C

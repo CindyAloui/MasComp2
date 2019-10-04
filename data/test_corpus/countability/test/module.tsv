@@ -1,0 +1,137 @@
+#C
+Tout	ADV	_	Tout	3	advmod	0
+d'abord	ADP	_	d'abord	-1	fixed	0
+il	PRON	Gender=Masc|Number=Sing|Person=3	il	1	nsubj	0
+va	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aller	0	root	0
+falloir	VERB	VerbForm=Inf	falloir	-1	xcomp	0
+imaginer	VERB	VerbForm=Inf	imaginer	-1	xcomp	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+nom	NOUN	Gender=Masc|Number=Sing	nom	-2	obj	0
+pour	ADP	_	pour	3	case	0
+votre	DET	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	son	2	det	0
+nouveau	ADJ	Gender=Masc|Number=Sing	nouveau	1	amod	0
+module	NOUN	Gender=Masc|Number=Sing	module	-6	obl	0
+.	PUNCT	_	.	-9	punct	1
+#C
+Veuillez	VERB	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	vouloir	0	root	0
+enregistrer	VERB	VerbForm=Inf	enregistrer	-1	xcomp	0
+votre	DET	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	son	2	det	0
+nouvel	ADJ	Gender=Masc|Number=Sing	nouveau	1	amod	0
+icône	NOUN	Gender=Masc|Number=Sing	icône	-3	obj	0
+en	PRON	Person=3	en	1	iobj	0
+indiquant	VERB	Tense=Pres|VerbForm=Part	indiquer	-2	acl	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+nom	NOUN	Gender=Masc|Number=Sing	nom	-2	obj	0
+de	ADP	_	de	2	case	0
+votre	DET	Number=Sing|Poss=Yes	son	1	det	0
+module	NOUN	Gender=Masc|Number=Sing	module	-3	nmod	0
+(	PUNCT	_	(	-12	punct	0
+dans	ADP	_	dans	2	case	0
+notre	DET	Gender=Masc|Number=Plur|Person=1|Poss=Yes	son	1	det	0
+exemple	NOUN	Gender=Masc|Number=Sing	exemple	-15	obl	0
+:	PUNCT	_	:	-16	punct	0
+machin.gif	INTJ	_	machin.gif	-17	_	0
+)	PUNCT	_	)	-18	_	0
+.	PUNCT	_	.	-19	_	1
+#C
+L'	PRON	Gender=Masc|Number=Sing|Person=3	Le	1	obj	0
+alternant	VERB	Tense=Pres|VerbForm=Part	alterner	0	root	0
+sera	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	être	1	aux:pass	0
+soumis	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	soumettre	-2	xcomp	0
+à	ADP	_	à	2	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+contrôle	NOUN	Gender=Masc|Number=Sing	contrôle	-3	obl	0
+continu	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	continuer	-1	acl	0
+tout	ADV	_	tout	1	advmod	0
+au	ADP	_	à	-2	advmod	0
+long	NOUN	Gender=Masc|Number=Sing	long	-1	fixed	0
+de	ADP	_	de	2	case	0
+sa	DET	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	son	1	det	0
+formation	NOUN	Gender=Fem|Number=Sing	formation	-4	obl:arg	0
+,	PUNCT	_	,	-1	punct	0
+qui	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Rel	qui	2	nsubj	0
+lui	PRON	Gender=Masc|Number=Sing|Person=3	lui	1	iobj	0
+permettra	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	permettre	-4	acl:relcl	0
+de	ADP	_	de	1	mark	0
+valider	VERB	VerbForm=Inf	valider	-2	xcomp	0
+ou	CCONJ	_	ou	3	cc	0
+non	ADV	_	non	2	advmod	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+modules	NOUN	Gender=Masc|Number=Plur	module	-4	conj	0
+de	ADP	_	de	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+Licence	NOUN	Gender=Fem|Number=Sing	Licence	-3	nmod	0
+Professionnelle	ADJ	Gender=Fem|Number=Sing	Professionnel	-1	amod	0
+.	PUNCT	_	.	-27	punct	1
+#C
+Ce	DET	Gender=Masc|Number=Sing|PronType=Dem	Ce	1	det	0
+projet	NOUN	Gender=Masc|Number=Sing	projet	1	nsubj	0
+comporte	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	comporter	0	root	0
+plusieurs	DET	Gender=Masc|Number=Plur	plusieurs	1	det	0
+modules	NOUN	Gender=Masc|Number=Plur	module	-2	obj	0
+,	PUNCT	_	,	-1	punct	0
+qui	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Rel	qui	1	nsubj	0
+pourront	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	pouvoir	-3	acl:relcl	0
+être	AUX	VerbForm=Inf	être	1	aux:pass	0
+menés	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	mener	-2	xcomp	0
+en	ADP	_	en	1	case	0
+parallèle	NOUN	Gender=Masc|Number=Sing	parallèle	-2	obl	0
+et	CCONJ	_	et	1	cc	0
+vont	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	aller	-11	conj	0
+sans	ADP	_	sans	3	advmod	0
+doute	NOUN	Gender=Masc|Number=Sing	doute	-1	fixed	0
+légèrement	ADV	_	légèrement	1	advmod	0
+évoluer	VERB	VerbForm=Inf	évoluer	-4	xcomp	0
+en	ADP	_	en	1	case	0
+fonction	NOUN	Gender=Fem|Number=Sing	fonction	-2	obl	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	2	det	0
+différents	ADJ	Gender=Masc|Number=Plur	différent	1	amod	0
+bilans	NOUN	Gender=Masc|Number=Plur	bilan	-5	obj	0
+intermédiaires	ADJ	Gender=Masc|Number=Plur	intermédiaire	-1	amod	0
+.	PUNCT	_	.	-22	punct	1
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C

@@ -1,0 +1,187 @@
+#C
+doit	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	devoir	0	root	0
+avoir	VERB	VerbForm=Inf	avoir	-1	xcomp	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+autoradio	NOUN	Gender=Masc|Number=Sing	autoradio	-2	obj	0
+,	PUNCT	_	,	-3	punct	0
+je	PRON	Gender=Masc|Number=Sing|Person=1	il	1	nsubj	0
+dors	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	dors	-5	parataxis	0
+au	ADP	_	à	1	case	0
+volant	NOUN	Gender=Masc|Number=Sing	volant	-2	obl	0
+sans	ADP	_	sans	1	case	0
+musique	NOUN	Gender=Fem|Number=Sing	musique	-2	nmod	0
+.	PUNCT	_	.	-11	punct	1
+#C
+alors	ADV	_	alors	3	advmod	0
+j'	PRON	Number=Sing|Person=1|PronType=Prs	il	2	nsubj	0
+ai	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	avoir	1	aux	0
+voulu	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	vouloir	0	root	0
+être	AUX	VerbForm=Inf	être	1	cop	0
+sympa	ADJ	Gender=Masc|Number=Sing	sympa	-2	xcomp	0
+et	CCONJ	_	et	2	cc	0
+lui	PRON	Number=Sing|Person=3|PronType=Prs	lui	1	iobj	0
+faire	VERB	VerbForm=Inf	faire	-5	conj	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	2	det	0
+petit	ADJ	Gender=Masc|Number=Sing	petit	1	amod	0
+plaisir	NOUN	Gender=Masc|Number=Sing	plaisir	-3	obj	0
+,	PUNCT	_	,	-9	punct	0
+pour	ADP	_	pour	2	mark	0
+l'	PRON	Gender=Masc|Number=Sing|Person=3	le	1	obj	0
+encourager	VERB	VerbForm=Inf	encourager	-12	advcl	0
+à	ADP	_	à	1	mark	0
+poursuivre	VERB	VerbForm=Inf	poursuivre	-2	xcomp	0
+ses	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes	son	4	det	0
+bons	ADJ	Gender=Masc|Number=Plur	bon	3	amod	0
+et	CCONJ	_	et	1	cc	0
+loyaux	ADJ	Gender=Masc|Number=Plur	loyal	-2	conj	0
+services	NOUN	Gender=Masc|Number=Plur	service	-5	obj	0
+:	PUNCT	_	:	-20	punct	0
+la	PRON	Gender=Fem|Number=Sing|Person=3	le	1	obj	0
+doter	VERB	VerbForm=Inf	doter	-22	parataxis	0
+d'	ADP	_	de	2	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+autoradio	NOUN	Gender=Masc|Number=Sing	autoradio	-3	obl	0
+!	PUNCT	_	!	-26	punct	1
+#C
+La	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	Le	1	det	0
+cabane	NOUN	Gender=Fem|Number=Sing	cabane	4	nsubj:pass	0
+n'	ADV	Polarity=Neg	ne	3	advmod	0
+étant	AUX	Tense=Pres|VerbForm=Part	être	2	aux:pass	0
+pas	ADV	Polarity=Neg	pas	1	advmod	0
+équipée	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	équiper	8	nsubj	0
+d'	ADP	_	de	1	case	0
+électricité	NOUN	Gender=Fem|Number=Sing	électricité	-2	obl:arg	0
+,	PUNCT	_	,	1	punct	0
+Jim	PROPN	_	Jim	-2	conj	0
+et	CCONJ	_	et	1	cc	0
+Blair	PROPN	_	Blair	-4	conj	0
+se	PRON	Person=3|PronType=Prs	se	1	expl	0
+servirent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	servir	0	root	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+autoradio	NOUN	Gender=Fem|Number=Sing	autoradio	-3	obl:arg	0
+de	ADP	_	de	3	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	2	det	0
+petite	ADJ	Gender=Fem|Number=Sing	petit	1	amod	0
+voiture	NOUN	Gender=Fem|Number=Sing	voiture	-4	nmod	0
+pour	ADP	_	pour	1	mark	0
+écouter	VERB	VerbForm=Inf	écouter	-9	advcl	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+nouvelles	NOUN	Gender=Fem|Number=Plur	nouvelle	-2	obj	0
+.	PUNCT	_	.	-12	punct	1
+#C
+De	ADP	_	De	2	case	0
+toute	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	tout	1	det	0
+façon	NOUN	Gender=Fem|Number=Sing	façon	6	obl	0
+,	PUNCT	_	,	5	punct	0
+ce	DET	Gender=Masc|Number=Sing|PronType=Dem	ce	1	det	0
+concert	NOUN	Gender=Masc|Number=Sing	concert	3	nsubj	0
+a	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	2	aux	0
+été	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	être	1	aux:pass	0
+enregistré	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	enregistrer	0	root	0
+,	PUNCT	_	,	-1	punct	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+son	NOUN	Gender=Masc|Number=Sing	son	4	nsubj	0
+est	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	3	cop	0
+plus	ADV	_	plus	2	advmod	0
+que	SCONJ	_	que	-1	fixed	0
+correct	ADJ	Gender=Masc|Number=Sing	correct	-7	parataxis	0
+à	ADP	_	à	3	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	2	det	0
+1ère	ADJ	_	1ère	1	amod	0
+écoute	NOUN	Gender=Fem|Number=Sing	écoute	-4	obl	0
+à	ADP	_	à	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+autoradio	NOUN	Gender=Fem|Number=Sing	autoradio	-3	nmod	0
+.	PUNCT	_	.	-15	punct	1
+#C
+Avec	ADP	_	Avec	3	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	2	det	0
+simple	ADJ	Gender=Masc|Number=Sing	simple	1	amod	0
+Jack	PROPN	Gender=Masc|Number=Sing	Jack	6	obl	0
+votre	DET	Number=Sing|Poss=Yes	son	1	det	0
+baladeur	NOUN	Gender=Fem|Number=Sing	baladeur	4	nsubj	0
+mp	NUM	_	mp	-1	nmod	0
+3	NUM	NumType=Card	3	-1	nmod	0
+se	PRON	Person=3|PronType=Prs	se	1	expl	0
+branchera	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	brancher	0	root	0
+sur	ADP	_	sur	2	case	0
+votre	DET	Number=Sing|Poss=Yes	son	1	det	0
+autoradio	NOUN	Gender=Fem|Number=Sing	autoradio	-3	obl	0
+,	PUNCT	_	,	-4	punct	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+chaîne	NOUN	Gender=Fem|Number=Sing	chaîne	-6	obj	0
+de	ADP	_	de	2	case	0
+vos	DET	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	son	1	det	0
+amis	NOUN	Gender=Masc|Number=Plur	ami	-3	nmod	0
+,	PUNCT	_	,	-10	punct	0
+etc	ADV	_	etc	-11	advmod	0
+.	PUNCT	_	.	-12	punct	1
+#C
+À	ADP	_	à	1	case	0
+défaut	NOUN	Gender=Masc|Number=Sing	défaut	9	obl:mod	0
+d'	ADP	_	de	1	case	0
+autoradios	NOUN	Gender=Fem|Number=Plur	autoradio	-2	nmod	0
+ou	CCONJ	_	ou	2	cc	0
+de	ADP	_	de	1	case	0
+téléphones	NOUN	Gender=Fem|Number=Plur	téléphone	-3	conj	0
+portables	ADJ	Gender=Fem|Number=Plur	portable	-1	amod	0
+,	PUNCT	_	,	-7	punct	0
+ils	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	il	1	nsubj	0
+traquent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	traquer	0	root	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+cargos	NOUN	Gender=Masc|Number=Plur	cargo	-2	obj	0
+et	CCONJ	_	et	2	cc	0
+leurs	DET	Gender=Masc|Number=Plur|Person=3|Poss=Yes	son	1	det	0
+coffres-forts	NOUN	Gender=Masc|Number=Plur	coffres-fort	-3	conj	0
+depuis	ADP	_	depuis	2	case	0
+leurs	DET	Gender=Masc|Number=Plur|Person=3|Poss=Yes	son	1	det	0
+sordides	NOUN	Gender=Masc|Number=Plur	sordide	-8	obl	0
+ghettos	NOUN	Gender=Masc|Number=Plur	ghetto	-1	nmod	0
+sur	ADP	_	sur	1	case	0
+pilotis	NOUN	Gender=Masc|Number=Plur	piloti	-2	nmod	0
+.	PUNCT	_	.	-12	punct	1
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C

@@ -1,0 +1,427 @@
+#M
+Le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	Le	1	det	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	4	dislocated	0
+c'	PRON	Number=Sing|Person=3|PronType=Dem	ce	3	nsubj	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+vie	NOUN	Gender=Fem|Number=Sing	vie	0	root	0
+sans	ADP	_	sans	1	case	0
+porte-monnaie	NOUN	Gender=Masc|Number=Sing	porte-monnaie	-2	nmod	0
+,	PUNCT	_	,	2	punct	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+bonheur	NOUN	Gender=Masc|Number=Sing	bonheur	-5	conj	0
+pour	ADP	_	pour	1	case	0
+Selim	PROPN	_	Selim	-2	nmod	0
+et	CCONJ	_	et	1	cc	0
+Ertèmolik	PROPN	_	Ertèmolik	-2	conj	0
+,	PUNCT	_	,	1	punct	0
+enceinte	NOUN	Gender=Fem|Number=Sing	enceinte	-11	conj	0
+jusqu'	ADP	_	jusque	2	case	0
+au	ADP	_	à	-1	fixed	0
+cou	NOUN	Gender=Masc|Number=Sing	cou	-3	nmod	0
+depuis	ADP	_	depuis	2	case	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+temps	NOUN	Gender=Masc|Number=Sing	temps	-6	nmod	0
+.	PUNCT	_	.	-18	punct	1
+#M
+Présenté	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	Présenter	0	root	0
+de	ADP	_	de	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+sorte	NOUN	Gender=Fem|Number=Sing	sorte	-3	obl	0
+,	PUNCT	_	,	3	punct	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+système	NOUN	Gender=Masc|Number=Sing	système	1	nsubj	0
+ressemble	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	ressembler	-7	_	0
+à	ADP	_	à	2	case	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+sorte	NOUN	Gender=Fem|Number=Sing	sorte	-3	obl	0
+de	ADP	_	de	1	case	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-2	nmod	0
+bucolique	ADJ	Gender=Masc|Number=Sing	bucolique	-1	amod	0
+.	PUNCT	_	.	-7	punct	1
+#M
+Le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	Le	1	det	0
+collège	NOUN	Gender=Masc|Number=Sing	collège	4	nsubj	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+employeurs	NOUN	Gender=Masc|Number=Plur	employeur	-2	nmod	0
+a	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	1	aux	0
+fait	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	faire	0	root	0
+du	DET	Gender=Masc|Number=Sing	du	1	det	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-2	obj	0
+:	PUNCT	_	:	-3	punct	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+augmentation	NOUN	Gender=Fem|Number=Sing	augmentation	-5	_	0
+salariale	ADJ	Gender=Fem|Number=Sing	salarial	-1	amod	0
+au	ADP	_	à	1	case	0
+niveau	NOUN	Gender=Masc|Number=Sing	niveau	-3	nmod	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+inflation	NOUN	Gender=Fem|Number=Sing	inflation	-3	nmod	0
+contre	ADP	_	contre	2	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+détricotage	NOUN	Gender=Masc|Number=Sing	détricotage	-3	nmod	0
+de	ADP	_	de	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+convention	NOUN	Gender=Fem|Number=Sing	convention	-3	nmod	0
+collective	ADJ	Gender=Fem|Number=Sing	collectif	-1	amod	0
+.	PUNCT	_	.	-19	_	1
+#C
+Tout	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Rel	Tout	5	nsubj	0
+n'	ADV	Polarity=Neg	ne	4	advmod	0
+a	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	3	aux	0
+pas	ADV	Polarity=Neg	pas	2	advmod	0
+été	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	être	1	cop	0
+parfait	ADJ	Gender=Masc|Number=Sing	parfait	0	root	0
+comme	SCONJ	_	comme	1	mark	0
+nous	PRON	Number=Plur|Person=1|PronType=Prs	il	-2	advcl	0
+aurions	AUX	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	avoir	1	aux	0
+aimé	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	aimer	-4	advcl	0
+que	SCONJ	_	que	2	mark	0
+cela	PRON	Number=Sing|PronType=Dem	cela	1	nsubj	0
+fût	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	être	-3	ccomp	0
+,	PUNCT	_	,	-1	punct	0
+mais	CCONJ	_	mais	4	cc	0
+à	ADP	_	à	3	case	0
+chaque	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	chaque	2	det	0
+nouveau	ADJ	Gender=Masc|Number=Sing	nouveau	1	amod	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-6	conj	0
+nous	PRON	Number=Plur|Person=1|PronType=Prs	il	2	iobj	0
+nous	PRON	Number=Plur|Person=1|PronType=Prs	il	1	obj	0
+améliorons	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	amélior	-3	acl:relcl	0
+:	PUNCT	_	:	-17	punct	0
+c'	PRON	Gender=Masc|Number=Sing|Person=3	ce	3	nsubj	0
+est	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+évidence	NOUN	Gender=Fem|Number=Sing	évidence	-21	parataxis	0
+.	PUNCT	_	.	-22	punct	1
+#C
+Mettre	VERB	VerbForm=Inf	Mettre	0	root	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+plantes	NOUN	Gender=Fem|Number=Plur	plante	-2	obj	0
+en	ADP	_	en	1	case	0
+pot	NOUN	Gender=Masc|Number=Sing	pot	-2	nmod	0
+bien	ADV	_	bien	3	advmod	0
+avant	ADP	_	avant	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+date	NOUN	Gender=Fem|Number=Sing	date	-8	obl	0
+du	DET	Gender=Masc|Number=Sing	du	1	det	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-2	nmod	0
+pour	ADP	_	pour	5	mark	0
+qu'	SCONJ	_	que	-1	fixed	0
+elles	PRON	Gender=Fem|Number=Plur|Person=3	soi	3	nsubj:pass	0
+soient	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	2	aux:pass	0
+bien	ADV	_	bien	1	advmod	0
+enracinées	VERB	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	enraciner	-16	advcl	0
+et	CCONJ	_	et	3	cc	0
+pour	ADP	_	pour	2	mark	0
+leur	PRON	Gender=Masc|Number=Plur|Person=3	lui	1	iobj	0
+assurer	VERB	VerbForm=Inf	assurer	-4	conj	0
+toutes	ADJ	Gender=Fem|Number=Plur	tout	2	amod	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+chances	NOUN	Gender=Fem|Number=Plur	chance	-3	obj	0
+de	ADP	_	de	1	case	0
+reprise	NOUN	Gender=Fem|Number=Sing	reprise	-2	nmod	0
+.	PUNCT	_	.	-26	punct	1
+#M
+Les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	Le	1	det	0
+produits	NOUN	Gender=Masc|Number=Plur	produit	0	root	0
+de	ADP	_	de	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+ferme	NOUN	Gender=Fem|Number=Sing	ferme	-3	nmod	0
+,	PUNCT	_	,	-4	punct	0
+ceux	PRON	Gender=Masc|Number=Plur|PronType=Dem	celui	-5	nmod	0
+du	ADP	_	du	3	advmod	0
+moins	ADV	_	moins	-1	fixed	0
+qui	PRON	PronType=Rel	qui	1	nsubj	0
+peuvent	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	pouvoir	-4	acl:relcl	0
+échapper	VERB	VerbForm=Inf	échapper	-1	xcomp	0
+à	ADP	_	à	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+réquisition	NOUN	Gender=Fem|Number=Sing	réquisition	-3	obl	0
+,	PUNCT	_	,	-4	punct	0
+ne	ADV	Polarity=Neg	ne	6	advmod	0
+se	PRON	Gender=Masc|Number=Plur|Person=3|Reflex=Yes	se	5	expl	0
+sont	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	4	aux	0
+jamais	ADV	Polarity=Neg	jamais	3	advmod	0
+aussi	ADV	_	aussi	2	advmod	0
+bien	ADV	_	bien	1	advmod	0
+vendus	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	vendre	-11	parataxis	0
+et	CCONJ	_	et	4	cc	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	2	nsubj	0
+est	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	1	cop	0
+roi	NOUN	Gender=Masc|Number=Sing	roi	-5	conj	0
+.	PUNCT	_	.	-27	punct	1
+#M
+Une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	Un	1	det	0
+bourse	NOUN	Gender=Fem|Number=Sing	bourse	0	root	0
+aux	ADP	_	à	1	case	0
+projets	NOUN	Gender=Masc|Number=Plur	projet	-2	nmod	0
+(	PUNCT	_	(	1	punct	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-4	appos	0
+,	PUNCT	_	,	1	punct	0
+échanges	NOUN	Gender=Masc|Number=Plur	échange	-2	conj	0
+de	ADP	_	de	1	case	0
+savoirs	NOUN	Gender=Masc|Number=Plur	savoir	-2	nmod	0
+,	PUNCT	_	,	1	punct	0
+etc	ADV	_	etc	-6	advmod	0
+.	PUNCT	_	.	-7	punct	1
+#M
+Je	PRON	Number=Sing|Person=1|PronType=Prs	il	2	nsubj	0
+me	PRON	Number=Sing|Person=1|Reflex=Yes	le	1	expl	0
+souviens	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	souvenir	0	root	0
+de	ADP	_	de	2	case	0
+ce	DET	Gender=Masc|Number=Sing|PronType=Dem	ce	1	det	0
+type	NOUN	Gender=Masc|Number=Sing	type	-3	obl:arg	0
+utopique	ADJ	Gender=Masc|Number=Sing	utopique	-1	amod	0
+qui	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Rel	qui	2	nsubj	0
+ne	ADV	Polarity=Neg	ne	1	advmod	0
+jurait	VERB	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	jur	-4	acl:relcl	0
+que	ADV	_	que	3	advmod	0
+par	ADP	_	par	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+essence	NOUN	Gender=Fem|Number=Sing	essence	-4	obj	0
+de	ADP	_	de	1	case	0
+colza	NOUN	Gender=Masc|Number=Sing	colza	-2	nmod	0
+et	CCONJ	_	et	2	cc	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-5	conj	0
+et	CCONJ	_	et	2	cc	0
+tout	DET	Gender=Masc|Number=Sing	tout	1	det	0
+ça	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	ça	-3	conj	0
+.	PUNCT	_	.	-20	punct	1
+#M
+La	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	Le	1	det	0
+presse	NOUN	Gender=Fem|Number=Sing	presse	1	nsubj	0
+utilise	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	utiliser	0	root	0
+également	ADV	_	également	-1	advmod	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-3	obj	0
+,	PUNCT	_	,	-1	punct	0
+il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	il	2	nsubj	0
+est	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	1	cop	0
+fréquent	ADJ	Gender=Masc|Number=Sing	fréquent	-4	acl:relcl	0
+qu'	SCONJ	_	que	1	mark	0
+elle	PRON	Gender=Fem|Number=Sing|Person=3	il	-2	dep	0
+échange	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	échanger	-10	advcl	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+espaces	NOUN	Gender=Masc|Number=Plur	espace	-2	obj	0
+publicitaires	ADJ	Gender=Masc|Number=Plur	pubblicitaire	-1	amod	0
+contre	ADP	_	contre	2	case	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+biens	NOUN	Gender=Masc|Number=Plur	bien	-6	obl	0
+,	PUNCT	_	,	-1	punct	0
+qui	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Rel	qui	1	nsubj	0
+servent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	servir	-3	acl:relcl	0
+de	ADP	_	de	1	case	0
+cadeaux	NOUN	Gender=Masc|Number=Plur	cadeau	-2	obl	0
+à	ADP	_	à	2	case	0
+ses	DET	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	son	1	det	0
+lecteurs	NOUN	Gender=Masc|Number=Plur	lecteur	-3	nmod	0
+.	PUNCT	_	.	-25	punct	1
+#M
+Dans	ADP	_	Dans	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+histoire	NOUN	Gender=Fem|Number=Sing	histoire	8	obl	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+homme	NOUN	Gender=Masc|Number=Sing	homme	-3	nmod	0
+,	PUNCT	_	,	4	punct	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	2	nsubj	0
+n'	ADV	Polarity=Neg	ne	1	advmod	0
+a	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	0	root	0
+t	NOUN	_	t	-1	fixed	0
+'	PUNCT	_	'	-2	punct	0
+il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	il	3	nsubj	0
+pas	ADV	_	pas	2	advmod	0
+toujours	ADV	_	toujours	1	advmod	0
+existé	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	exister	-6	parataxis	0
+avant	ADP	_	avant	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+venue	NOUN	Gender=Fem|Number=Sing	venue	-3	obl	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+commerçants	NOUN	Gender=Masc|Number=Plur	commerçant	-5	obj	0
+&	SYM	_	&	1	cc	0
+artisans	NOUN	Gender=Masc|Number=Plur	artisan	-2	conj	0
+?	PUNCT	_	?	-14	punct	1
+#C
+Ils	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	Il	1	nsubj	0
+connaissaient	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	connaître	0	root	0
+mes	DET	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	son	2	det	0
+petits	ADJ	Gender=Masc|Number=Plur	petit	1	amod	0
+talent	NOUN	Gender=Masc|Number=Sing	talent	-3	obj	0
+de	ADP	_	de	1	case	0
+graphiste	NOUN	Gender=Fem|Number=Sing	graphiste	-2	nmod	0
+:	PUNCT	_	:	4	punct	0
+on	PRON	Gender=Masc|Number=Sing|Person=3	il	3	nsubj	0
+a	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	2	aux	0
+donc	ADV	_	donc	1	advmod	0
+procédé	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	procéder	-10	parataxis	0
+à	ADP	_	à	3	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	2	det	0
+petit	ADJ	Gender=Masc|Number=Sing	petit	1	amod	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-4	obl:arg	0
+.	PUNCT	_	.	-15	punct	1
+#M
+En	ADP	_	En	5	case	0
+ce	PRON	PronType=Rel	ce	-1	fixed	0
+qui	PRON	PronType=Rel	qui	-2	fixed	0
+concerne	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	concerner	-3	fixed	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+chocolat	NOUN	Gender=Masc|Number=Sing	chocolat	3	obl	0
+,	PUNCT	_	,	2	punct	0
+on	PRON	Gender=Masc|Number=Sing|Person=3	il	1	nsubj	0
+peut	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	pouvoir	0	root	0
+utiliser	VERB	VerbForm=Inf	utiliser	-1	xcomp	0
+à	ADP	_	à	2	advmod	0
+peu	ADV	_	peu	-1	fixed	0
+près	ADV	_	près	-3	advmod	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	2	det	0
+même	ADJ	Gender=Masc|Number=Sing	même	1	amod	0
+type	NOUN	Gender=Masc|Number=Sing	type	-6	obj	0
+de	ADP	_	de	1	case	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-2	nmod	0
+.	PUNCT	_	.	-10	punct	1
+#M
+Nous	PRON	Gender=Masc|Number=Plur|Person=1	il	1	nsubj	0
+visitons	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	visiter	0	root	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+marché	NOUN	Gender=Masc|Number=Sing	marché	-2	obj	0
+animé	ADJ	Gender=Masc|Number=Sing	animé	-1	amod	0
+et	CCONJ	_	et	1	cc	0
+coloré	ADJ	Gender=Masc|Number=Sing	coloré	-2	conj	0
+de	ADP	_	de	1	case	0
+Pisac	PROPN	_	Pisac	-5	nmod	0
+où	ADV	PronType=Rel	où	6	advmod	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+échanges	NOUN	Gender=Masc|Number=Plur	échange	4	nsubj	0
+par	ADP	_	par	1	case	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-2	nmod	0
+se	PRON	Person=3|PronType=Prs	se	1	expl:pass	0
+perpétuent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	perpétuer	-7	acl:relcl	0
+depuis	ADP	_	depuis	2	case	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+siècles	NOUN	Gender=Masc|Number=Plur	siècle	-3	obl	0
+.	PUNCT	_	.	-18	punct	1
+#M
+Il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	Il	3	nsubj:pass	0
+sont	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	2	aux:pass	0
+ensuite	ADV	_	ensuite	1	advmod	0
+proposés	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	proposer	0	root	0
+à	ADP	_	à	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+vente	NOUN	Gender=Fem|Number=Sing	vente	-3	obl:arg	0
+(	PUNCT	_	(	3	punct	0
+ou	CCONJ	_	ou	2	cc	0
+au	ADP	_	à	1	case	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-4	nmod	0
+)	PUNCT	_	)	-1	punct	0
+en	ADP	_	en	1	case	0
+magasin	NOUN	Gender=Masc|Number=Sing	magasin	-10	obl	0
+avec	ADP	_	avec	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+garantie	NOUN	Gender=Fem|Number=Sing	garantie	-13	obl:mod	0
+Cash	NOUN	Gender=Masc|Number=Sing	Cash	-1	nmod	0
+Converters	ADJ	Gender=Fem|Number=Sing	Converters	-2	amod	0
+.	PUNCT	_	.	-16	punct	1
+#C
+Mais	CCONJ	_	Mais	7	cc	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+heures	NOUN	Gender=Fem|Number=Plur	heure	5	nsubj	0
+sup	ADJ	_	sup	-1	amod	0
+ne	ADV	Polarity=Neg	ne	3	advmod	0
+sont	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+pas	ADV	Polarity=Neg	pas	1	advmod	0
+automatiques	ADJ	Gender=Fem|Number=Plur	automatique	0	root	0
+,	PUNCT	_	,	-1	punct	0
+et	CCONJ	_	et	-2	_	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-4	_	0
+proposé	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	proposer	-1	acl	0
+des	DET	Definite=Ind|Number=Plur|PronType=Art	un	1	det	0
+RTT	NOUN	_	RTT	-2	obj	0
+mutile	ADJ	Gender=Fem|Number=Sing	mutile	-1	amod	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+aspiration	NOUN	Gender=Fem|Number=Sing	aspiration	-5	obl	0
+à	ADP	_	à	2	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+temps	NOUN	Gender=Masc|Number=Sing	temps	-3	nmod	0
+pour	ADP	_	pour	1	case	0
+soi	PRON	Number=Sing|Person=3	soi	-2	nmod	0
+vécu	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	vivre	-3	acl	0
+comme	ADP	_	comme	2	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+progrès	NOUN	Gender=Masc|Number=Sing	progrès	-3	obl	0
+d'	ADP	_	de	1	case	0
+humanité	NOUN	Gender=Fem|Number=Sing	humanité	-2	nmod	0
+.	PUNCT	_	.	-22	_	1
+#M
+Ils	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	Il	2	nsubj	0
+ont	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	avoir	1	aux	0
+refusé	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	refuser	0	root	0
+tout	DET	Gender=Masc|Number=Sing	tout	1	det	0
+troc	NOUN	Gender=Masc|Number=Sing	troc	-2	obj	0
+,	PUNCT	_	,	-3	punct	0
+c'	PRON	Number=Sing|Person=3|PronType=Dem	ce	1	nsubj	0
+est	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	-5	parataxis	0
+tout	PRON	Gender=Masc|Number=Sing	tout	-6	_	0
+.	PUNCT	_	.	-7	_	1
+#C
+devis	NOUN	Gender=Masc|Number=Sing	devis	0	root	0
+gratuits	ADJ	Gender=Masc|Number=Plur	gratuit	-1	amod	0
+pour	ADP	_	pour	1	mark	0
+trouver	VERB	VerbForm=Inf	trouver	-2	advcl	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+demenageur	NOUN	Gender=Masc|Number=Sing	demenageur	-2	obj	0
+-	PUNCT	_	-	-1	punct	0
+PR	PROPN	_	PR	-2	nmod	0
+Google	PROPN	_	Google	-1	flat:name	0
+Trouver	VERB	VerbForm=Inf	Trouver	-4	acl	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+demenageur	NOUN	Gender=Masc|Number=Sing	demenageur	-2	obj	0
+en	ADP	_	en	3	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	2	det	0
+seul	ADJ	Gender=Masc|Number=Sing	seul	1	amod	0
+clic	NOUN	Gender=Masc|Number=Sing	clic	-6	obl	0
+,	PUNCT	_	,	-16	_	0
+obtenez	ADP	_	obtenez	2	case	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+devis	NOUN	Gender=Masc|Number=Plur	devis	-19	_	0
+,	PUNCT	_	,	2	punct	0
+trocs	ADV	_	trocs	1	advmod	0
+possibles	ADJ	Gender=Masc|Number=Plur	possible	-3	amod	0
+.	PUNCT	_	.	-23	_	1
+#C
+#M
+#M
+#C
+#M
+#M
+#M
+#M
+#M
+#M
+#C
+#M
+#C
+#C
+#C
+#C
+#C
+#M
+#M
+#M
+#M
+#C
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#C
+#M

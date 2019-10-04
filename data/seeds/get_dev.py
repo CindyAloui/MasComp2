@@ -10,14 +10,16 @@ def write_nouns(f, nouns):
 
 train_size_percent = 80.0
 
-file_seed1 = io.open("animacy/200-ANIM.txt", "r", encoding="utf8")
-file_seed2 = io.open("animacy/200-INANIM.txt", "r", encoding="utf8")
+# file_seed1 = io.open("animacy/200-ANIM.txt", "r", encoding="utf8")
+# file_seed2 = io.open("animacy/200-INANIM.txt", "r", encoding="utf8")
+#
+# file_train_seed1 = io.open("animacy/200-ANIM-train.txt", "w", encoding="utf8")
+# file_train_seed2 = io.open("animacy/200-INANIM-train.txt", "w", encoding="utf8")
+#
+# file_dev_seed1 = io.open("animacy/200-ANIM-dev.txt", "w", encoding="utf8")
+# file_dev_seed2 = io.open("animacy/200-INANIM-dev.txt", "w", encoding="utf8")
 
-file_train_seed1 = io.open("animacy/200-ANIM-train.txt", "w", encoding="utf8")
-file_train_seed2 = io.open("animacy/200-INANIM-train.txt", "w", encoding="utf8")
-
-file_dev_seed1 = io.open("animacy/200-ANIM-dev.txt", "w", encoding="utf8")
-file_dev_seed2 = io.open("animacy/200-INANIM-dev.txt", "w", encoding="utf8")
+for file in os.listdir("supersenses")
 
 seed1 = []
 seed2 = []

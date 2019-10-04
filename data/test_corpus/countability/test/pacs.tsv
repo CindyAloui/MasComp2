@@ -1,0 +1,151 @@
+#C
+Il	PRON	Gender=Masc|Number=Sing|Person=3	Il	4	nsubj	0
+en	PRON	Person=3	en	3	expl	0
+est	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+jumelages	NOUN	Gender=Fem|Number=Plur	jumelage	0	root	0
+comme	ADP	_	comme	2	case	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+mariages	NOUN	Gender=Masc|Number=Plur	mariage	-3	nmod	0
+ou	CCONJ	_	ou	3	cc	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	2	det	0
+«	PUNCT	_	«	1	punct	0
+pacs	NOUN	Gender=Masc|Number=Plur	pac	-4	conj	0
+»	PUNCT	_	»	-1	punct	0
+.	PUNCT	_	.	-9	punct	1
+#C
+Et	CCONJ	_	Et	17	cc	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+mise	NOUN	Gender=Fem|Number=Sing	mise	15	nsubj	0
+en	ADP	_	en	-1	fixed	0
+oeuvre	NOUN	Number=Sing	oeuvre	-2	fixed	0
+de	ADP	_	de	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+solidarité	NOUN	Gender=Fem|Number=Sing	solidarité	-5	nmod	0
+fiscale	ADJ	Gender=Fem|Number=Sing	fiscal	-1	fixed	0
+des	DET	Definite=Ind|Number=Plur|PronType=Art	un	-2	fixed	0
+époux	NOUN	Gender=Masc|Number=Plur	époux	-3	fixed	0
+et	CCONJ	_	et	1	cc	0
+partenaires	NOUN	Gender=Masc|Number=Plur	partenaire	-5	conj	0
+liés	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	lier	-1	acl	0
+par	ADP	_	par	2	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+Pacs	NOUN	Gender=Masc|Number=Sing	Pacs	-3	obl:agent	0
+peut	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	pouvoir	0	root	0
+dans	ADP	_	dans	2	case	0
+certains	DET	Gender=Masc|Number=Plur	certain	1	det	0
+cas	NOUN	Gender=Masc|Number=Plur	cas	1	obl	0
+entraîner	VERB	VerbForm=Inf	entraîner	-4	xcomp	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+situations	NOUN	Gender=Fem|Number=Plur	situation	-2	obj	0
+difficiles	ADJ	Gender=Fem|Number=Plur	difficile	-1	amod	0
+.	PUNCT	_	.	-8	punct	1
+#C
+Un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	Un	1	det	0
+certificat	NOUN	Gender=Masc|Number=Sing	certificat	0	root	0
+attestant	VERB	Tense=Pres|VerbForm=Part	attester	-1	acl	0
+que	SCONJ	_	que	5	mark	0
+vous	PRON	Number=Plur|Person=2|PronType=Prs	il	4	nsubj	0
+n'	ADV	Polarity=Neg	ne	3	advmod	0
+avez	AUX	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	avoir	2	aux	0
+pas	ADV	Polarity=Neg	pas	1	advmod	0
+conclu	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	conclure	-6	ccomp	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+PACS	NOUN	Gender=Masc|Number=Sing	PACS	-2	obj	0
+avec	ADP	_	avec	3	case	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	2	det	0
+autre	ADJ	Gender=Fem|Number=Sing	autre	1	amod	0
+personne	NOUN	Gender=Fem|Number=Sing	personne	-6	obl:mod	0
+.	PUNCT	_	.	-14	punct	1
+#C
+Pourtant	ADV	_	Pourtant	9	advmod	0
+,	PUNCT	_	,	-1	punct	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	2	det	0
+35	NUM	Gender=Fem|Number=Plur|NumType=Card	35	1	nummod	0
+heurs	NOUN	Gender=Fem|Number=Plur	heur	5	nsubj	0
+ou	CCONJ	_	ou	2	cc	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+PACS	NOUN	Gender=Masc|Number=Sing	PACS	-3	conj	0
+ne	ADV	Polarity=Neg	ne	1	advmod	0
+constituent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	constituer	0	root	0
+pas	ADV	Polarity=Neg	pas	-1	advmod	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+avancées	NOUN	Gender=Fem|Number=Plur	avancée	-3	obj	0
+sociales	ADJ	Gender=Fem|Number=Plur	social	-1	amod	0
+puisque	SCONJ	_	puisque	5	mark	0
+ces	DET	Gender=Fem|Number=Plur|PronType=Dem	ce	1	det	0
+réformes	NOUN	Gender=Fem|Number=Plur	réforme	3	nsubj	0
+ont	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	avoir	2	aux	0
+d'abord	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Rel	d'abord	1	expl	0
+profité	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	profiter	-10	advcl	0
+aux	ADP	_	à	1	case	0
+cadres	NOUN	Gender=Masc|Number=Plur	cadre	-2	obl	0
+.	PUNCT	_	.	-13	punct	1
+#C
+Tous	ADJ	Gender=Masc|Number=Plur	tout	2	amod	0
+les	DET	Definite=Def|Number=Plur|PronType=Art	le	1	det	0
+PACS	NOUN	Gender=Masc|Number=Plur	PACS	1	nsubj	0
+feront	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	faire	0	root	0
+désormais	ADV	_	désormais	-1	advmod	0
+l'	DET	Definite=Def|Number=Sing|PronType=Art	le	1	det	0
+objet	NOUN	Gender=Masc|Number=Sing	objet	-3	obj	0
+d'	ADP	_	de	2	case	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+mention	NOUN	Gender=Fem|Number=Sing	mention	-3	nmod	0
+en	ADP	_	en	1	case	0
+marge	NOUN	Gender=Fem|Number=Sing	marge	-2	nmod	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+acte	NOUN	Gender=Masc|Number=Sing	acte	-3	nmod	0
+de	ADP	_	de	1	case	0
+naissance	NOUN	Gender=Fem|Number=Sing	naissance	-2	nmod	0
+de	ADP	_	de	1	case	0
+chacun	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Rel	chacun	-2	nmod	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+partenaires	NOUN	Gender=Masc|Number=Plur	partenaire	-11	nmod	0
+.	PUNCT	_	.	-18	punct	1
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C

@@ -1,0 +1,260 @@
+#M
+Le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	Le	1	det	0
+bois	NOUN	Gender=Masc|Number=Sing	bois	1	nsubj	0
+utilise	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	utiliser	0	root	0
+peut	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	pouvoir	-1	parataxis	0
+etre	AUX	VerbForm=Inf	être	2	aux:pass	0
+du	PRON	Gender=Masc|Number=Sing	du	1	obj	0
+noyer	VERB	VerbForm=Inf	noyer	-3	xcomp	0
+ou	CCONJ	_	ou	3	cc	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+acajou	NOUN	Gender=Masc|Number=Sing	acajou	-4	conj	0
+,	PUNCT	_	,	-9	punct	0
+mais	CCONJ	_	mais	4	cc	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	2	det	0
+anciens	ADJ	Gender=Masc|Number=Plur	ancien	1	amod	0
+maitres	NOUN	Gender=Masc|Number=Plur	maitre	1	nsubj	0
+préfèrent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	préférer	-14	conj	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+bois	NOUN	Gender=Masc|Number=Sing	bois	-2	obj	0
+de	ADP	_	de	1	case	0
+peuplier	PROPN	_	peuplier	-2	nmod	0
+qui	PRON	PronType=Rel	qui	1	nsubj	0
+donne	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	donner	-2	acl:relcl	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	2	det	0
+meilleure	ADJ	Gender=Fem|Number=Sing	meilleur	1	amod	0
+resonance	NOUN	Gender=Fem|Number=Sing	resonance	-3	obj	0
+.	PUNCT	_	.	-24	punct	1
+#M
+Les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	Le	1	det	0
+chambres	NOUN	Gender=Fem|Number=Plur	chambre	3	nsubj	0
+et	CCONJ	_	et	1	cc	0
+suites	NOUN	Gender=Fem|Number=Plur	suite	-2	conj	0
+possèdent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	posséder	0	root	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+mobilier	NOUN	Gender=Masc|Number=Sing	mobilier	-2	obj	0
+en	ADP	_	en	1	case	0
+acajou	NOUN	Gender=Masc|Number=Sing	acajou	-2	nmod	0
+,	PUNCT	_	,	2	punct	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+brasseurs	NOUN	Gender=Masc|Number=Plur	brasseur	-5	conj	0
+...	PUNCT	_	...	1	punct	0
+Hôtel	PROPN	_	Hôtel	-7	appos	0
+Coco	PROPN	_	Coco	-1	flat:name	0
+Kreole	PROPN	_	Kreole	-2	flat:name	0
+(	PUNCT	_	(	1	punct	0
+std	NOUN	_	std	-4	nmod	0
+.	PUNCT	_	.	-1	punct	1
+#M
+Le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	Le	1	det	0
+pin	NOUN	Gender=Masc|Number=Sing	pin	9	nsubj	0
+,	PUNCT	_	,	2	punct	0
+l'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+acajou	NOUN	Gender=Masc|Number=Sing	acajou	-3	conj	0
+et	CCONJ	_	et	2	cc	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+ébène	NOUN	Gender=Fem|Number=Sing	ébène	-6	conj	0
+sont	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+bois	NOUN	Gender=Masc|Number=Plur	bois	0	root	0
+précieux	ADJ	Gender=Masc|Number=Plur	précieux	-1	amod	0
+vendus	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	vendre	-2	acl	0
+à	ADP	_	à	2	case	0
+l'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+étranger	NOUN	Gender=Masc|Number=Sing	étranger	-3	obl:arg	0
+et	CCONJ	_	et	2	cc	0
+qui	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Rel	qui	1	nsubj	0
+rapportent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	rapporter	-6	conj	0
+beaucoup	ADV	_	beaucoup	-1	advmod	0
+au	ADP	_	à	1	case	0
+pays	NOUN	Gender=Masc|Number=Sing	pays	-3	obl	0
+.	PUNCT	_	.	-12	punct	1
+#C
+Alors	ADV	_	Alors	4	advmod	0
+,	PUNCT	_	,	3	punct	0
+l'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+acajou	NOUN	Gender=Masc|Number=Sing	acajou	1	nsubj	0
+fait	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	faire	0	root	0
+t	NOUN	_	t	-1	obj	0
+-il	PRON	Gender=Masc|Number=Sing|Person=3	il	-2	_	0
+des	DET	Definite=Ind|Number=Plur|PronType=Art	un	1	det	0
+noix	NOUN	Gender=Fem|Number=Plur	noix	-4	_	0
+?	PUNCT	_	?	-5	_	1
+#M
+Hesmaar	ADP	_	Hesmaar	1	mark	0
+put	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	pouvoir	0	root	0
+monter	VERB	VerbForm=Inf	monter	-1	xcomp	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+escaliers	NOUN	Gender=Masc|Number=Plur	escalier	-2	obj	0
+,	PUNCT	_	,	2	punct	0
+et	CCONJ	_	et	1	cc	0
+ouvrit	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	ouvrir	-6	conj	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+porte	NOUN	Gender=Fem|Number=Sing	porte	-2	obj	0
+d'	ADP	_	de	1	case	0
+acajou	NOUN	Gender=Masc|Number=Sing	acajou	-2	nmod	0
+décoré	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	décorer	-3	acl	0
+d'	ADP	_	de	1	case	0
+ivoire	NOUN	Gender=Masc|Number=Sing	ivoire	-2	obl:arg	0
+sur	ADP	_	sur	1	case	0
+laquelle	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Rel	lequel	3	obl	0
+il	PRON	Gender=Masc|Number=Sing|Person=3	il	2	nsubj	0
+y	PRON	Gender=Masc|Number=Sing|Person=3	y	1	expl	0
+avait	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	avoir	-5	acl:relcl	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+plaque	NOUN	Gender=Fem|Number=Sing	plaque	-2	obj	0
+de	ADP	_	de	1	case	0
+bronze	NOUN	Gender=Masc|Number=Sing	bronze	-2	nmod	0
+.	PUNCT	_	.	-23	punct	1
+#M
+Enfin	ADV	_	Enfin	4	advmod	0
+,	PUNCT	_	,	-1	punct	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+vieillissement	NOUN	Gender=Masc|Number=Sing	vieillissement	1	nsubj	0
+permet	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	permettre	0	root	0
+à	ADP	_	à	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+eau	NOUN	Gender=Fem|Number=Sing	eau	-3	obl	0
+de	ADP	_	de	1	case	0
+vie	NOUN	Gender=Fem|Number=Sing	vie	-2	nmod	0
+de	ADP	_	de	1	mark	0
+prendre	VERB	VerbForm=Inf	prendre	-7	xcomp	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	2	det	0
+belle	ADJ	Gender=Fem|Number=Sing	beau	1	amod	0
+couleur	NOUN	Gender=Fem|Number=Sing	couleur	-3	obj	0
+ambrée	ADJ	Gender=Fem|Number=Sing	ambré	-1	amod	0
+qui	PRON	PronType=Rel	qui	1	nsubj	0
+évolue	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	évoluer	-3	acl:relcl	0
+peu	ADV	_	peu	-1	advmod	0
+à	ADP	_	à	4	case	0
+peu	ADV	_	peu	-1	fixed	0
+vers	ADP	_	vers	-2	fixed	0
+l'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+acajou	NOUN	Gender=Masc|Number=Sing	acajou	-6	obl	0
+.	PUNCT	_	.	-20	punct	1
+#M
+En	ADP	_	En	5	advmod	0
+effet	NOUN	Gender=Masc|Number=Sing	effet	-1	fixed	0
+,	PUNCT	_	,	3	punct	0
+il	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	il	2	nsubj:pass	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	1	aux:pass	0
+réalisé	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	réaliser	0	root	0
+avec	ADP	_	avec	2	case	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+appendices	NOUN	Gender=Masc|Number=Plur	appendice	-3	obl	0
+en	ADP	_	en	1	case	0
+carbone	NOUN	Gender=Masc|Number=Sing	carbone	-2	nmod	0
+,	PUNCT	_	,	-6	punct	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+bancs	NOUN	Gender=Masc|Number=Plur	banc	-8	obj	0
+en	ADP	_	en	1	case	0
+acajou	NOUN	Gender=Masc|Number=Sing	acajou	-2	nmod	0
+et	CCONJ	_	et	2	cc	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+pont	NOUN	Gender=Masc|Number=Sing	pont	-5	conj	0
+en	ADP	_	en	1	case	0
+teck	NOUN	Gender=Masc|Number=Sing	teck	-2	nmod	0
+...	PUNCT	_	...	-16	punct	1
+Comme	SCONJ	_	Comme	4	mark	0
+sur	ADP	_	sur	3	case	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	2	det	0
+vrais	ADJ	Gender=Masc|Number=Plur	vrai	1	amod	0
+yachts	NOUN	Gender=Masc|Number=Plur	yacht	0	root	0
+.	PUNCT	_	.	-1	punct	1
+#M
+Table	NOUN	Gender=Masc|Number=Sing	Table	18	nsubj	0
+d'	ADP	_	de	1	case	0
+acajou	NOUN	Gender=Masc|Number=Sing	acajou	-2	nmod	0
+au	ADP	_	à	1	case	0
+plateau	NOUN	Gender=Masc|Number=Sing	plateau	-2	nmod	0
+de	ADP	_	de	1	case	0
+marbre	NOUN	Gender=Masc|Number=Sing	marbre	-2	nmod	0
+gris	ADJ	Gender=Masc|Number=Sing	gris	-1	amod	0
+qui	PRON	PronType=Rel	qui	2	nsubj	0
+se	PRON	Person=3|Reflex=Yes	se	1	expl	0
+trouvait	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	trouver	-6	acl:relcl	0
+chez	ADP	_	chez	2	case	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+demoiselles	NOUN	Gender=Fem|Number=Plur	demoiselle	-3	obl	0
+Gindre	PROPN	_	Gindre	-1	nmod	0
+et	CCONJ	_	et	3	cc	0
+sur	ADP	_	sur	1	case	0
+laquelle	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Rel	lequel	1	obl	0
+Rimbaud	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	Rimbaud	0	root	0
+recopia	ADP	_	recopia	2	case	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+recueil	NOUN	Gender=Masc|Number=Sing	recueil	-3	obl	0
+de	ADP	_	de	1	case	0
+Douai	PROPN	_	Douai	-2	nmod	0
+.	PUNCT	_	.	-6	punct	1
+#M
+La	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	Le	1	det	0
+tête	NOUN	Gender=Fem|Number=Sing	tête	4	nsubj:pass	0
+du	ADP	_	du	1	case	0
+cormoran	NOUN	Gender=Masc|Number=Sing	cormoran	-2	nmod	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	1	aux:pass	0
+surmontée	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	surmonter	0	root	0
+d'	ADP	_	de	2	case	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+ancre	NOUN	Gender=Fem|Number=Sing	ancre	-3	obl:arg	0
+de	ADP	_	de	1	case	0
+marine	NOUN	Gender=Fem|Number=Sing	marine	-2	nmod	0
+d'	ADP	_	de	1	case	0
+acier	NOUN	Gender=Masc|Number=Sing	acier	-2	nmod	0
+à	ADP	_	à	1	case	0
+jas	NOUN	Gender=Masc|Number=Plur	ja	-2	nmod	0
+de	ADP	_	de	1	case	0
+tenné	NOUN	Gender=Masc|Number=Sing	tenné	-2	nmod	0
+en	ADP	_	en	1	case	0
+mouillage	NOUN	Gender=Masc|Number=Sing	mouillage	-2	nmod	0
+dont	PRON	PronType=Rel	dont	2	nmod	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+cordage	NOUN	Gender=Masc|Number=Sing	cordage	-16	_	0
+entrelace	ADP	_	entrelace	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+couronne	NOUN	Gender=Fem|Number=Sing	couronne	-3	nmod	0
+d'	ADP	_	de	1	case	0
+acajou	NOUN	Gender=Masc|Number=Sing	acajou	-2	nmod	0
+.	PUNCT	_	.	-22	_	1
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#C
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M
+#M

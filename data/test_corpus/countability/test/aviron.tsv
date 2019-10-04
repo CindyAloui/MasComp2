@@ -1,0 +1,105 @@
+#M
+Marié	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	Marier	7	acl	0
+,	PUNCT	_	,	-1	punct	0
+père	NOUN	Gender=Masc|Number=Sing	père	-2	obl	0
+de	ADP	_	de	2	case	0
+3	NUM	_	3	1	nummod	0
+enfants	NOUN	Gender=Masc|Number=Plur	enfant	-3	nmod	0
+,	PUNCT	_	,	-6	punct	0
+Dominique	PROPN	_	Dominique	0	root	0
+Perben	PROPN	_	Perben	-1	flat:name	0
+pratique	NOUN	Gender=Fem|Number=Sing	pratique	-2	flat:name	0
+différents	ADJ	Gender=Masc|Number=Plur	différent	1	amod	0
+sports	NOUN	Gender=Masc|Number=Plur	sport	-4	appos	0
+(	PUNCT	_	(	1	punct	0
+aviron	INTJ	_	aviron	-6	appos	0
+,	PUNCT	_	,	1	punct	0
+VTT	PROPN	Gender=Masc|Number=Sing	VTT	-2	conj	0
+...	PUNCT	_	...	1	punct	0
+)	PUNCT	_	)	-4	punct	0
+et	CCONJ	_	et	2	cc	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	1	aux:pass	0
+passionné	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	passionner	-13	conj	0
+d'	ADP	_	de	1	case	0
+histoire	NOUN	Gender=Fem|Number=Sing	histoire	-2	obl:arg	0
+et	CCONJ	_	et	2	cc	0
+d'	ADP	_	de	1	case	0
+arts	NOUN	Gender=Masc|Number=Plur	art	-3	conj	0
+plastiques	ADJ	Gender=Masc|Number=Plur	plastique	-1	amod	0
+.	PUNCT	_	.	-20	punct	1
+#M
+De	ADP	_	De	6	advmod	0
+manière	NOUN	Gender=Fem|Number=Sing	manière	-1	fixed	0
+définitive	ADJ	Gender=Fem|Number=Sing	définitif	-2	fixed	0
+,	PUNCT	_	,	3	punct	0
+il	PRON	Gender=Masc|Number=Sing|Person=3	il	2	nsubj	0
+s'	PRON	Gender=Masc|Number=Sing|Person=3|Reflex=Yes	s'	1	expl	0
+agit	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	agir	0	root	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+compétitions	NOUN	Gender=Fem|Number=Plur	compétition	-2	obj	0
+relevant	VERB	Tense=Pres|VerbForm=Part	relever	-1	acl	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+activités	NOUN	Gender=Fem|Number=Plur	activité	-2	obj	0
+sportives	ADJ	Gender=Fem|Number=Plur	sportif	-1	amod	0
+suivantes	ADJ	Gender=Fem|Number=Plur	suivant	-2	amod	0
+:	PUNCT	_	:	-8	punct	0
+athlétisme	NOUN	Gender=Masc|Number=Sing	athlétisme	-9	_	0
+,	PUNCT	_	,	1	punct	0
+aviron	INTJ	_	aviron	-2	conj	0
+,	PUNCT	_	,	1	punct	0
+natation	NOUN	Gender=Fem|Number=Sing	natation	-4	conj	0
+,	PUNCT	_	,	1	punct	0
+gymnastique	ADJ	Gender=Fem|Number=Sing	gymnastique	-6	conj	0
+et	CCONJ	_	et	1	cc	0
+escrime	NOUN	Gender=Fem|Number=Sing	escrime	-8	conj	0
+(	PUNCT	_	(	-9	punct	0
+art	NOUN	Gender=Masc|Number=Sing	art	-10	nmod	0
+.	PUNCT	_	.	-11	punct	1
+#M
+#C
+#C
+#C
+#C
+#C
+#C
+#M
+#M
+#C
+#C
+#M
+#M
+#M
+#M
+#M
+#C
+#C
+#M
+#M
+#M
+#M
+#M
+#M
+#C
+#M
+#M
+#C
+#M
+#M
+#M
+#M
+#M
+#C
+#C
+#M
+#M
+#M
+#M
+#C
+#M
+#C
+#M
+#M
+#M
+#M
+#M
+#M

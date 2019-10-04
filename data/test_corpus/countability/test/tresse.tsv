@@ -1,0 +1,240 @@
+#C
+Tu	PRON	Number=Sing|Person=2|PronType=Prs	il	1	nsubj	0
+as	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	avoir	0	root	0
+cinq	NUM	Gender=Masc|Number=Plur|NumType=Card	cinq	1	nummod	0
+ans	NOUN	Gender=Masc|Number=Plur	an	-2	obj	0
+,	PUNCT	_	,	-3	punct	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+crinière	NOUN	Gender=Fem|Number=Sing	crinière	-5	obj	0
+de	ADP	_	de	1	case	0
+cheveux	NOUN	Gender=Masc|Number=Plur	cheveu	-2	nmod	0
+Galopant	PROPN	_	Galopant	-1	nmod	0
+dans	ADP	_	dans	2	case	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+vent	NOUN	Gender=Masc|Number=Sing	vent	-6	nmod	0
+Que	PRON	PronType=Int	Que	-1	nmod	0
+ta	SYM	_	ta	-1	fixed	0
+mère	NOUN	Gender=Fem|Number=Sing	mère	-2	fixed	0
+apprivoise	ADV	_	apprivoise	-3	advmod	0
+en	ADP	_	en	1	case	0
+rangées	NOUN	Gender=Fem|Number=Plur	rangée	-5	nmod	0
+de	ADP	_	de	1	case	0
+tresses	NOUN	Gender=Fem|Number=Plur	tresse	-2	nmod	0
+Belle	ADJ	Gender=Fem|Number=Sing	beau	-1	amod	0
+épreuve	NOUN	Gender=Fem|Number=Sing	épreuve	-2	nmod	0
+pour	ADP	_	pour	2	case	0
+ton	DET	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	son	1	det	0
+impatience	NOUN	Gender=Masc|Number=Sing	impatience	-5	nmod	0
+.	PUNCT	_	.	-25	punct	1
+#C
+comme	SCONJ	_	comme	6	mark	0
+si	SCONJ	_	si	5	mark	0
+toutes	ADJ	Gender=Fem|Number=Plur	tout	2	amod	0
+ces	DET	Gender=Fem|Number=Plur|PronType=Dem	ce	1	det	0
+galères	NOUN	Gender=Fem|Number=Plur	galère	2	nsubj	0
+ne	ADV	Polarity=Neg	ne	1	advmod	0
+suffisait	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	suffire	0	root	0
+pas	ADV	Polarity=Neg	pas	-1	advmod	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	2	det	0
+tresse	ADJ	Gender=Fem|Number=Sing	tresx	1	amod	0
+casse	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	casser	-4	obj	0
+au	ADP	_	à	1	mark	0
+lancer	VERB	VerbForm=Inf	lancer	-2	xcomp	0
+!	PUNCT	_	!	-7	punct	1
+#C
+Dans	ADP	_	Dans	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+joie	NOUN	Gender=Fem|Number=Sing	joie	9	obl:mod	0
+comme	SCONJ	_	comme	3	mark	0
+dans	ADP	_	dans	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+tristesse	NOUN	Gender=Fem|Number=Sing	tristesse	-4	nmod	0
+,	PUNCT	_	,	-5	punct	0
+J'	PRON	Number=Sing|Person=1|PronType=Prs	il	3	nsubj	0
+y	PRON	_	y	2	obl:mod	0
+suis	AUX	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	être	1	aux	0
+liée	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	lier	0	root	0
+telle	ADJ	Gender=Fem|Number=Sing	tel	-1	xcomp	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+tresse	NOUN	Gender=Fem|Number=Sing	tresse	-2	obl:mod	0
+.	PUNCT	_	.	-4	punct	1
+#C
+Même	ADV	_	Même	2	advmod	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+lamas	NOUN	Gender=Masc|Number=Plur	lama	13	nsubj	0
+de	ADP	_	de	1	case	0
+service	NOUN	Gender=Masc|Number=Sing	service	-2	nmod	0
+,	PUNCT	_	,	-3	punct	0
+qui	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Rel	qui	1	nsubj	0
+passent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	passer	-5	acl:relcl	0
+tranquillement	ADV	_	tranquillement	-1	advmod	0
+,	PUNCT	_	,	-2	punct	0
+sur	ADP	_	sur	2	case	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+tresse	NOUN	Gender=Fem|Number=Sing	tresse	-5	obl	0
+gazonnée	AUX	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	gazonner	-1	acl	0
+,	PUNCT	_	,	1	punct	0
+manifestent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	manifester	0	root	0
+leur	DET	Gender=Masc|Number=Plur|Person=3|Poss=Yes	son	1	det	0
+impatience	NOUN	Gender=Fem|Number=Sing	impatience	-2	obj	0
+.	PUNCT	_	.	-3	punct	1
+#C
+Une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	Un	2	det	0
+petite	ADJ	Gender=Fem|Number=Sing	petit	1	amod	0
+frange	NOUN	Gender=Fem|Number=Sing	frange	0	root	0
+coquettement	PRON	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	coquettemer	1	obj	0
+décolorée	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	décolorer	-2	acl	0
+,	PUNCT	_	,	-3	punct	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	2	det	0
+superbe	ADJ	Gender=Fem|Number=Sing	superbe	1	amod	0
+tresse	NOUN	Gender=Fem|Number=Sing	tresse	-6	nmod	0
+dans	ADP	_	dans	2	case	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+dos	NOUN	Gender=Masc|Number=Sing	dos	-3	nmod	0
+et	CCONJ	_	et	2	cc	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+regard	NOUN	Gender=Masc|Number=Sing	regard	-6	conj	0
+malicieux	ADJ	Gender=Masc|Number=Sing	malicieux	-1	amod	0
+.	PUNCT	_	.	-14	punct	1
+#C
+et	CCONJ	_	et	3	cc	0
+par	ADP	_	par	2	case	0
+tes	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	son	1	det	0
+tresses	NOUN	Gender=Fem|Number=Plur	tresse	0	root	0
+roides	AUX	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	roider	2	aux	0
+Te	PRON	_	lui	1	iobj	0
+soulevant	VERB	Tense=Pres|VerbForm=Part	soulever	-3	acl	0
+d'	ADP	_	de	2	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+bras	NOUN	Gender=Masc|Number=Sing	bras	-3	obl:arg	0
+fiévreux	ADJ	Gender=Masc|Number=Sing	fiévreux	-1	amod	0
+,	PUNCT	_	,	-8	punct	0
+Dis	VERB	Gender=Masc|Tense=Past|VerbForm=Part	Dettre	-9	acl	0
+-moi	PRON	Number=Sing|Person=1	-moi	-1	obj	0
+,	PUNCT	_	,	-11	punct	0
+tête	NOUN	Gender=Fem|Number=Sing	tête	-12	_	0
+effrayante	ADJ	Gender=Fem|Number=Sing	effrayant	-1	amod	0
+,	PUNCT	_	,	-14	_	0
+a	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	-15	_	0
+-t-il	PRON	Gender=Masc|Number=Sing|Person=3	-t-il	-16	_	0
+sur	ADP	_	sur	2	case	0
+tes	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	son	1	det	0
+dents	NOUN	Gender=Fem|Number=Plur	dent	-19	_	0
+froides	ADJ	Gender=Fem|Number=Plur	froid	-1	fixed	0
+Collé	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	Coller	-2	acl	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+suprêmes	NOUN	Gender=Masc|Number=Plur	suprême	-2	obj	0
+adieux	NOUN	Gender=Masc|Number=Plur	adieux	-1	nmod	0
+?	PUNCT	_	?	-25	_	1
+#C
+Elle	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	il	2	nsubj	0
+se	PRON	Gender=Fem|Number=Sing|Person=3|Reflex=Yes	se	1	expl	0
+redresse	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	redresser	0	root	0
+,	PUNCT	_	,	1	punct	0
+repousse	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	repousser	-2	parataxis	0
+sa	DET	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	son	1	det	0
+tresse	NOUN	Gender=Fem|Number=Sing	tresse	-2	nsubj	0
+qui	PRON	PronType=Rel	qui	1	nsubj	0
+va	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	aller	-2	acl:relcl	0
+frapper	VERB	VerbForm=Inf	frapper	-1	xcomp	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+cruex	NOUN	Gender=Masc|Number=Sing	cruex	-2	obj	0
+de	ADP	_	de	2	case	0
+ses	DET	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	son	1	det	0
+reins	NOUN	Gender=Masc|Number=Plur	reins	-3	nmod	0
+avec	ADP	_	avec	2	case	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+bruit	NOUN	Gender=Masc|Number=Sing	bruit	-8	obl:mod	0
+sourd	NOUN	Gender=Masc|Number=Sing	sourd	-1	nmod	0
+.	PUNCT	_	.	-17	punct	1
+#C
+Le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	Le	1	det	0
+relieur	NOUN	Gender=Masc|Number=Sing	relieur	1	nsubj	0
+ajoute	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	ajouter	0	root	0
+à	ADP	_	à	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+couverture	NOUN	Gender=Fem|Number=Sing	couverture	-3	obl:arg	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+fermoirs	NOUN	Gender=Masc|Number=Plur	fermoir	-5	obj	0
+(	PUNCT	_	(	1	punct	0
+lanières	INTJ	_	lanière	-2	appos	0
+ou	CCONJ	_	ou	1	cc	0
+tresses	ADV	_	tresses	-2	conj	0
+en	ADP	_	en	1	case	0
+cuir	NOUN	Gender=Masc|Number=Sing	cuir	-4	obl	0
+,	PUNCT	_	,	1	punct	0
+crochets	NOUN	Gender=Masc|Number=Plur	crochet	-6	conj	0
+métalliques	ADJ	Gender=Masc|Number=Plur	métallique	-1	amod	0
+)	PUNCT	_	)	-8	punct	0
+.	PUNCT	_	.	-16	punct	1
+#C
+Une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	Un	1	det	0
+fois	NOUN	Gender=Fem|Number=Sing	fois	5	obl	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	2	det	0
+six	NUM	_	six	1	nummod	0
+fils	NOUN	Gender=Masc|Number=Plur	fils	2	nsubj	0
+reliés	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	relier	-1	acl	0
+fixer	VERB	VerbForm=Inf	fixer	0	root	0
+l'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+anneau	NOUN	Gender=Masc|Number=Sing	anneau	-2	obj	0
+(	PUNCT	_	(	-3	punct	0
+ici	ADV	_	ici	2	advmod	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+épingle	NOUN	Gender=Fem|Number=Sing	épingle	-6	obl	0
+dans	ADP	_	dans	2	case	0
+du	DET	Gender=Masc|Number=Sing	du	1	det	0
+tissu	NOUN	Gender=Masc|Number=Sing	tissu	-3	nmod	0
+)	PUNCT	_	)	-10	punct	0
+et	CCONJ	_	et	1	cc	0
+mélanger	VERB	VerbForm=Inf	mélanger	-12	conj	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+fils	NOUN	Gender=Masc|Number=Plur	fils	-2	obj	0
+(	PUNCT	_	(	-3	punct	0
+un	DET	Gender=Masc|Number=Sing	un	4	advmod	0
+peu	ADV	_	peu	-1	fixed	0
+comme	ADP	_	comme	2	case	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+tresse	NOUN	Gender=Fem|Number=Sing	tresse	-8	obl	0
+)	PUNCT	_	)	-9	punct	0
+.	PUNCT	_	.	-22	punct	1
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C

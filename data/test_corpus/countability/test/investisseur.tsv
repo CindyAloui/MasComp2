@@ -1,0 +1,449 @@
+#C
+Les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	Le	1	det	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	4	nsubj:pass	0
+étrangers	ADJ	Gender=Masc|Number=Plur	étranger	-1	amod	0
+sont	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	2	aux:pass	0
+souvent	ADV	_	souvent	1	advmod	0
+déconcertés	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	déconcerter	0	root	0
+par	ADP	_	par	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+succession	NOUN	Gender=Fem|Number=Sing	succession	-3	obl:agent	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Number=Sing|PronType=Art	le	1	det	0
+Avis	PROPN	_	Avis	-3	nmod	0
+de	ADP	_	de	1	case	0
+Réunion	PROPN	_	Réunion	-2	nmod	0
+et	CCONJ	_	et	3	cc	0
+de	ADP	_	de	2	case	0
+l'	DET	Definite=Def|Number=Sing|PronType=Art	le	1	det	0
+Avis	PROPN	_	Avis	-6	conj	0
+de	ADP	_	de	1	case	0
+Convocation	NOUN	Gender=Fem|Number=Sing	Convocation	-2	nmod	0
+alors	ADV	_	alors	8	mark	0
+que	SCONJ	_	que	-1	fixed	0
+ceux	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	celui	6	nsubj	0
+-ci	PRON	Gender=Masc|Number=Sing|Person=3	-ci	5	iobj	0
+sont	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	4	cop	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	3	det	0
+plus	ADV	_	plus	1	advmod	0
+souvent	ADV	_	souvent	1	advmod	0
+identiques	ADJ	Gender=Masc|Number=Plur	identique	-23	advcl	0
+.	PUNCT	_	.	-24	punct	1
+#C
+Il	PRON	Gender=Masc|Number=Sing|Person=3	Il	1	nsubj	0
+faut	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	falloir	0	root	0
+aujourd'hui	ADV	_	aujourd'hui	-1	advmod	0
+rendre	VERB	VerbForm=Inf	rendre	-2	xcomp	0
+visibles	ADJ	Gender=Fem|Number=Plur	visible	-1	xcomp	0
+,	PUNCT	_	,	-2	punct	0
+au	ADP	_	à	1	case	0
+niveau	NOUN	Gender=Masc|Number=Sing	niveau	-4	obl	0
+européen	ADJ	Gender=Masc|Number=Sing	européen	-1	amod	0
+,	PUNCT	_	,	-6	punct	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+compétences	NOUN	Gender=Fem|Number=Plur	compétence	-8	obj	0
+de	ADP	_	de	2	case	0
+nos	DET	Gender=Fem|Number=Plur|Person=1|Poss=Yes	son	1	det	0
+entreprises	NOUN	Gender=Fem|Number=Plur	entreprise	-3	nmod	0
+,	PUNCT	_	,	-12	punct	0
+pour	ADP	_	pour	1	mark	0
+attirer	VERB	VerbForm=Inf	attirer	-14	advcl	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-2	obj	0
+et	CCONJ	_	et	2	cc	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+cadres	NOUN	Gender=Masc|Number=Plur	cadre	-3	conj	0
+dans	ADP	_	dans	2	case	0
+notre	DET	Gender=Fem|Number=Plur|Person=1|Poss=Yes	son	1	det	0
+région	NOUN	Gender=Fem|Number=Sing	région	-3	nmod	0
+.	PUNCT	_	.	-25	punct	1
+#C
+«	PUNCT	_	«	1	punct	0
+Au	NOUN	Gender=Masc|Number=Sing	à	5	obl	0
+contraire	ADJ	Gender=Masc|Number=Sing	contraire	-1	amod	0
+,	PUNCT	_	,	3	punct	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	1	nsubj	0
+transfèrent	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	transférer	0	root	0
+leurs	DET	Gender=Masc|Number=Plur|Person=3|Poss=Yes	son	1	det	0
+capitaux	NOUN	Gender=Masc|Number=Plur	capital	-2	obj	0
+vers	ADP	_	vers	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+Chine	PROPN	Gender=Fem|Number=Sing	Chine	-5	obl	0
+et	CCONJ	_	et	3	cc	0
+d'	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	2	det	0
+autres	ADJ	Gender=Masc|Number=Plur	autre	1	amod	0
+pays	NOUN	Gender=Masc|Number=Plur	pays	-4	conj	0
+émergents	ADJ	Gender=Masc|Number=Plur	émergent	-1	amod	0
+.	PUNCT	_	.	-11	punct	1
+#C
+Si	SCONJ	_	Si	3	mark	0
+d'	ADP	_	de	2	mark	0
+aucuns	PRON	Gender=Masc|Number=Plur	aucuns	1	obj	0
+pensaient	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	penser	17	advcl	0
+que	SCONJ	_	que	4	mark	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+naissance	NOUN	Gender=Fem|Number=Sing	naissance	2	nsubj	0
+aurait	AUX	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	1	aux	0
+redonné	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	redonner	-5	ccomp	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+couleurs	NOUN	Gender=Fem|Number=Plur	couleur	-2	obj	0
+à	ADP	_	à	2	case	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+économie	NOUN	Gender=Fem|Number=Sing	économie	-5	obl	0
+nippone	ADJ	Gender=Fem|Number=Sing	nippon	-1	amod	0
+essoufflée	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	essouffler	-2	acl	0
+,	PUNCT	_	,	4	punct	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	2	nsubj	0
+ne	ADV	Polarity=Neg	ne	1	advmod	0
+semblaient	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	sembler	0	root	0
+pas	ADV	Polarity=Neg	pas	-1	advmod	0
+du	DET	Gender=Masc|Number=Sing	du	2	det	0
+même	ADJ	Gender=Masc|Number=Sing	même	1	amod	0
+avis	NOUN	Gender=Masc|Number=Sing	avis	-4	obj	0
+.	PUNCT	_	.	-5	punct	1
+#C
+Nous	PRON	Gender=Masc|Number=Plur|Person=1	il	1	nsubj	0
+avons	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	avoir	0	root	0
+déjà	ADV	_	déjà	-1	advmod	0
+de	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	2	det	0
+nombreux	ADJ	Gender=Masc|Number=Plur	nombreux	1	amod	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-4	obj	0
+et	CCONJ	_	et	1	cc	0
+clients	NOUN	Gender=Masc|Number=Plur	client	-2	conj	0
+potentiels	ADJ	Gender=Masc|Number=Plur	potentiel	-3	amod	0
+pour	ADP	_	pour	3	mark	0
+s'	PRON	Gender=Masc|Number=Sing|Person=3|Reflex=Yes	s'	2	expl	0
+en	PRON	Gender=Masc|Number=Sing|Person=3	en	1	expl	0
+porter	VERB	VerbForm=Inf	porter	-11	advcl	0
+acquéreur	NOUN	Gender=Masc|Number=Sing	acquéreur	-1	obj	0
+.	PUNCT	_	.	-13	punct	1
+#C
+Et	CCONJ	_	Et	0	root	0
+bientôt	ADV	_	bientôt	-1	_	0
+d'	ADP	_	de	1	case	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-2	obl:arg	0
+privés	ADJ	Gender=Masc|Number=Plur	privé	-1	amod	0
+régionaux	ADJ	Gender=Masc|Number=Plur	régional	-2	amod	0
+attirés	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	attirer	-3	acl	0
+par	ADP	_	par	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+paix	NOUN	Gender=Fem|Number=Sing	paix	-3	obl:agent	0
+.	PUNCT	_	.	-9	punct	1
+#C
+"	PUNCT	_	"	2	punct	0
+Bijou	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	Bijou	1	aux:pass	0
+convoité	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	convoiter	0	root	0
+par	ADP	_	par	-1	advmod	0
+nombre	NOUN	Gender=Masc|Number=Sing	nombre	-1	fixed	0
+d'	ADP	_	de	1	case	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-4	obl	0
+de	ADP	_	de	2	case	0
+tous	DET	Gender=Masc|Number=Plur	tout	1	det	0
+horizons	NOUN	Gender=Masc|Number=Plur	horizon	-3	nmod	0
+.	PUNCT	_	.	-8	punct	1
+#C
+Son	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes	Son	1	det	0
+marché	NOUN	Gender=Masc|Number=Sing	marché	0	root	0
+sophistiqué	ADJ	Gender=Masc|Number=Sing	sophistiqué	-1	amod	0
+,	PUNCT	_	,	1	punct	0
+tourné	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	tourner	-3	acl	0
+vers	ADP	_	vers	3	case	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	2	det	0
+nouvelles	ADJ	Gender=Fem|Number=Plur	nouveau	1	amod	0
+technologies	NOUN	Gender=Fem|Number=Plur	technologie	-4	obl	0
+en	ADP	_	en	1	mark	0
+fait	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	faire	-6	advcl	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	2	det	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+places	NOUN	Gender=Fem|Number=Plur	place	-3	obj	0
+financières	ADJ	Gender=Fem|Number=Plur	financier	-1	amod	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	2	det	0
+plus	ADV	_	plus	1	advmod	0
+attractives	ADJ	Gender=Fem|Number=Plur	attractif	-4	amod	0
+pour	ADP	_	pour	2	case	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-3	obl	0
+étrangers	ADJ	Gender=Masc|Number=Plur	étranger	-1	amod	0
+.	PUNCT	_	.	-21	punct	1
+#C
+La	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	Le	1	det	0
+bourse	NOUN	Gender=Fem|Number=Sing	bourse	8	nsubj	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+valeurs	NOUN	Gender=Fem|Number=Plur	valeur	-2	nmod	0
+de	ADP	_	de	1	case	0
+Tel	PROPN	_	Tel	-2	nmod	0
+Aviv	PROPN	_	Aviv	-1	flat:name	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	2	cop	0
+un	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	un	1	det	0
+lieu	NOUN	Gender=Masc|Number=Sing	lieu	0	root	0
+de	ADP	_	de	1	mark	0
+rendez	VERB	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	rendre	-2	acl	0
+-vous	PRON	Number=Plur|Person=2|PronType=Prs	il	1	obj	0
+attrayant	VERB	Tense=Pres|VerbForm=Part	attraire	-2	xcomp	0
+pour	ADP	_	pour	2	case	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-3	obl	0
+locaux	ADJ	Gender=Masc|Number=Plur	local	-1	amod	0
+et	CCONJ	_	et	1	cc	0
+étrangers	ADJ	Gender=Masc|Number=Plur	étranger	-2	conj	0
+.	PUNCT	_	.	-11	punct	1
+#C
+Cette	DET	Gender=Fem|Number=Sing|PronType=Dem	ce	1	det	0
+réussite	NOUN	Gender=Fem|Number=Sing	réussite	2	nsubj	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	1	aux:pass	0
+due	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	devoir	0	root	0
+en	ADP	_	en	2	case	0
+grande	ADJ	Gender=Fem|Number=Sing	grand	1	amod	0
+partie	NOUN	Gender=Fem|Number=Sing	partie	-3	obl	0
+aux	ADP	_	à	1	case	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-2	nmod	0
+étrangers	ADJ	Gender=Masc|Number=Plur	étranger	-1	amod	0
+dont	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Rel	dont	5	iobj	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+investissements	NOUN	Gender=Masc|Number=Plur	investissement	3	nsubj	0
+se	PRON	Gender=Masc|Number=Plur|Person=3|Reflex=Yes	se	2	expl	0
+sont	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	être	1	aux	0
+élevés	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	élever	-7	acl:relcl	0
+à	ADP	_	à	2	case	0
+2	NUM	Gender=Masc|Number=Plur|NumType=Card	2	1	nummod	0
+milliards	NOUN	Gender=Masc|Number=Plur|NumType=Card	milliard	-3	obl	0
+de	ADP	_	de	1	case	0
+dollars	NOUN	Gender=Masc|Number=Plur	dollar	-2	nmod	0
+.	PUNCT	_	.	-18	punct	1
+#C
+De	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	2	det	0
+nombreuses	ADJ	Gender=Fem|Number=Plur	nombreux	1	amod	0
+réformes	NOUN	Gender=Fem|Number=Plur	réforme	4	nsubj:pass	0
+ont	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	avoir	3	aux	0
+été	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	être	2	aux:pass	0
+également	ADV	_	également	1	advmod	0
+faites	VERB	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	faire	0	root	0
+afin	ADV	_	afin	-1	advmod	0
+de	ADP	_	de	2	mark	0
+s'	PRON	Person=3|PronType=Prs	se	1	obj	0
+adapter	VERB	VerbForm=Inf	adapter	-3	ccomp	0
+au	ADP	_	à	1	case	0
+marché	NOUN	Gender=Masc|Number=Sing	marché	-2	obl:arg	0
+international	ADJ	Gender=Masc|Number=Sing	international	-1	amod	0
+et	CCONJ	_	et	2	cc	0
+d'	ADP	_	de	1	mark	0
+ouvrir	VERB	VerbForm=Inf	ouvrir	-6	conj	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+marché	NOUN	Gender=Masc|Number=Sing	marché	-2	obj	0
+israélien	ADJ	Gender=Masc|Number=Sing	israélien	-1	amod	0
+aux	ADP	_	à	1	case	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-5	obl:arg	0
+étrangers	ADJ	Gender=Masc|Number=Plur	étranger	-1	amod	0
+.	PUNCT	_	.	-17	punct	1
+#C
+L'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	Le	1	det	0
+année	NOUN	Gender=Fem|Number=Sing	année	7	nsubj	0
+2005	NUM	_	2005	-1	nmod	0
+a	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	5	aux	0
+été	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	être	4	cop	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	3	det	0
+très	ADV	_	très	1	advmod	0
+bonne	ADJ	Gender=Fem|Number=Sing	bon	1	amod	0
+année	NOUN	Gender=Fem|Number=Sing	année	0	root	0
+pour	ADP	_	pour	2	case	0
+l'	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+économie	NOUN	Gender=Fem|Number=Sing	économie	-3	nmod	0
+israélienne	ADJ	Gender=Fem|Number=Sing	israélien	-1	amod	0
+,	PUNCT	_	,	-5	punct	0
+pour	ADP	_	pour	2	case	0
+les	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	le	1	det	0
+sociétés	NOUN	Gender=Fem|Number=Plur	société	-8	obl	0
+cotées	VERB	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	coter	-1	acl	0
+ainsi	ADV	_	ainsi	-1	advmod	0
+que	SCONJ	_	que	-1	fixed	0
+pour	ADP	_	pour	2	case	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-4	nmod	0
+.	PUNCT	_	.	-15	punct	1
+#C
+La	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	Le	1	det	0
+commune	NOUN	Gender=Fem|Number=Sing	commune	5	nsubj	0
+d'	ADP	_	de	1	case	0
+origine	NOUN	Gender=Fem|Number=Sing	origine	-2	nmod	0
+s'	PRON	Gender=Fem|Number=Sing|Person=3|Reflex=Yes	s'	2	expl	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	1	aux	0
+dégagée	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	dégager	0	root	0
+à	ADP	_	à	2	case	0
+bon	ADJ	Gender=Masc|Number=Sing	bon	1	amod	0
+compte	NOUN	Gender=Masc|Number=Sing	compte	-3	obl	0
+de	ADP	_	de	2	case	0
+ses	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes	son	1	det	0
+risques	NOUN	Gender=Masc|Number=Plur	risque	-3	nmod	0
+d'	ADP	_	de	1	case	0
+investisseur	NOUN	Gender=Masc|Number=Sing	investisseur	-2	nmod	0
+.	PUNCT	_	.	-9	punct	1
+#C
+Société	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	Société	11	aux	0
+privée	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	priver	10	advmod	0
+basée	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	baser	9	nsubj	0
+à	ADP	_	à	1	case	0
+Mountain	PROPN	_	Mountain	-2	obl:arg	0
+View	PROPN	_	View	-1	flat:name	0
+,	PUNCT	_	,	2	punct	0
+en	ADP	_	en	1	case	0
+Californie	PROPN	_	Californie	-4	nmod	0
+,	PUNCT	_	,	1	punct	0
+Google	PROPN	_	Google	-6	conj	0
+compte	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	compter	0	root	0
+Kleiner	PROPN	_	Kleiner	-1	obj	0
+Perkins	PROPN	_	Perkins	-1	flat:name	0
+Caufield	PROPN	_	Caufield	-2	flat:name	0
+&	SYM	_	&	-3	flat:name	0
+Byers	PROPN	_	Byers	-4	flat:name	0
+et	CCONJ	_	et	1	cc	0
+Sequoia	PROPN	_	Sequoia	-6	conj	0
+Capital	PROPN	_	Capital	-1	flat:name	0
+parmi	ADP	_	parmi	2	case	0
+ses	DET	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	son	1	det	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-4	nmod	0
+.	PUNCT	_	.	-12	punct	1
+#C
+C'	PRON	Gender=Masc|Number=Sing|Person=3	Ce	4	nsubj	0
+est	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	3	cop	0
+aussi	ADV	_	aussi	2	advmod	0
+une	DET	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	un	1	det	0
+histoire	NOUN	Gender=Fem|Number=Sing	histoire	0	root	0
+de	ADP	_	de	1	mark	0
+gros	ADJ	Gender=Masc	gros	-2	acl	0
+sous	NOUN	Gender=Masc|Number=Plur	sous	-1	conj	0
+et	CCONJ	_	et	2	cc	0
+d'	ADP	_	de	1	case	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-4	conj	0
+crédules	ADJ	Gender=Masc|Number=Plur	crédule	-1	amod	0
+.	PUNCT	_	.	-8	punct	1
+#C
+Groupe	NOUN	Gender=Masc|Number=Sing	Groupe	4	nsubj	0
+d'	ADP	_	de	1	case	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-2	nmod	0
+ayant	AUX	Tense=Pres|VerbForm=Part	avoir	1	aux	0
+achète	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	acheter	7	nsubj	0
+2	NUM	_	2	2	case	0
+des	DET	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	un	1	det	0
+bateaux	NOUN	Gender=Masc|Number=Plur	bateau	-3	obj	0
+a	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	3	aux	0
+Marc	PROPN	_	Marc	2	nsubj	0
+Rich	PROPN	_	Rich	-1	flat:name	0
+a	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	0	root	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+fin	NOUN	Gender=Fem|Number=Sing	fin	-2	obj	0
+des	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	1	det	0
+années	NOUN	Gender=Fem|Number=Plur	année	-4	obl	0
+80	NUM	_	80	-1	nmod	0
+Marc	PROPN	_	Marc	-6	nsubj	0
+Rich	PROPN	_	Rich	-1	flat:name	0
+"	PUNCT	_	"	-2	punct	0
+négociant	NOUN	Gender=Masc|Number=Sing	négociant	-3	nmod	0
+sulfureux	NOUN	Gender=Masc|Number=Plur	sulfureux	-1	nmod	0
+"	PUNCT	_	"	-5	punct	0
+23/01	NUM	Gender=Masc|Number=Plur|NumType=Card	23/01	1	nummod	0
+5	NUM	_	5	-7	nmod	0
+.	PUNCT	_	.	-14	punct	1
+#C
+Mais	CCONJ	_	Mais	6	cc	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+efforts	NOUN	Gender=Masc|Number=Plur	effort	4	nsubj	0
+n'	ADV	Polarity=Neg	ne	3	advmod	0
+ont	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	avoir	2	aux	0
+pas	ADV	Polarity=Neg	pas	1	advmod	0
+porté	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	porter	0	root	0
+leurs	DET	Gender=Masc|Number=Plur|Person=3|Poss=Yes	son	1	det	0
+fruits	NOUN	Gender=Masc|Number=Plur	fruit	-2	obj	0
+et	CCONJ	_	et	2	cc	0
+le	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	le	1	det	0
+manque	NOUN	Gender=Masc|Number=Sing	manque	-3	conj	0
+de	ADP	_	de	1	case	0
+performances	NOUN	Gender=Fem|Number=Plur	performance	-2	nmod	0
+de	ADP	_	de	2	case	0
+la	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	le	1	det	0
+firme	NOUN	Gender=Fem|Number=Sing	firme	-3	nmod	0
+Internet	PROPN	Gender=Masc|Number=Sing	Internet	-1	nmod	0
+déçoit	ADJ	Gender=Masc|Number=Sing	déçoit	-2	amod	0
+les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	le	1	det	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	-4	nmod	0
+.	PUNCT	_	.	-15	punct	1
+#C
+L'	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	Le	1	det	0
+investisseur	NOUN	Gender=Masc|Number=Sing	investisseur	2	nsubj	0
+immobilier	ADJ	Gender=Masc|Number=Sing	immobilier	-1	amod	0
+a	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	avoir	0	root	0
+besoin	NOUN	Gender=Masc|Number=Sing	besoin	-1	obj	0
+de	ADP	_	de	1	case	0
+visibilité	NOUN	Gender=Fem|Number=Sing	visibilité	-2	nmod	0
+et	CCONJ	_	et	2	cc	0
+de	ADP	_	de	1	case	0
+temps	NOUN	Gender=Masc|Number=Sing	temps	-3	conj	0
+et	CCONJ	_	et	4	cc	0
+cela	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	cela	3	nsubj:pass	0
+lui	PRON	Gender=Masc|Number=Sing|Person=3	lui	2	iobj	0
+est	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	être	1	aux:pass	0
+donné	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	donner	-11	conj	0
+dans	ADP	_	dans	3	case	0
+de	DET	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	un	2	det	0
+bonnes	ADJ	Gender=Fem|Number=Plur	bon	1	amod	0
+conditions	NOUN	Gender=Fem|Number=Plur	condition	-4	obl:mod	0
+.	PUNCT	_	.	-16	punct	1
+#C
+Les	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	Le	1	det	0
+investisseurs	NOUN	Gender=Masc|Number=Plur	investisseur	2	nsubj	0
+japonais	ADJ	Gender=Masc|Number=Plur	japonais	-1	amod	0
+détenaient	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	détenir	0	root	0
+à	ADP	_	à	2	case	0
+cette	DET	Gender=Fem|Number=Sing|PronType=Dem	ce	1	det	0
+date	NOUN	Gender=Fem|Number=Sing	date	-3	obl	0
+264,4	NUM	Gender=Masc|Number=Plur|NumType=Card	264,4	1	nummod	0
+milliards	NOUN	Gender=Masc|Number=Plur|NumType=Card	milliard	-5	obj	0
+de	ADP	_	de	1	case	0
+dollars	NOUN	Gender=Masc|Number=Plur	dollar	-2	nmod	0
+de	ADP	_	de	1	case	0
+notes	NOUN	Gender=Fem|Number=Plur	note	-2	nmod	0
+et	CCONJ	_	et	1	cc	0
+obligations	NOUN	Gender=Fem|Number=Plur	obligation	-2	conj	0
+du	ADP	_	du	1	case	0
+Trésor	PROPN	Gender=Masc|Number=Sing	Trésor	-8	nmod	0
+des	DET	Definite=Ind|Number=Plur|PronType=Art	un	1	det	0
+Etats-Unis	PROPN	_	Etats-Unis	-15	obj	0
+,	PUNCT	_	,	2	punct	0
+contre	ADP	_	contre	1	case	0
+259	NUM	_	259	-3	nmod	0
+pour	ADP	_	pour	2	case	0
+les	DET	Definite=Def|Number=Plur|PronType=Art	le	1	det	0
+Britanniques	NOUN	_	Britanniques	-3	nmod	0
+.	PUNCT	_	.	-22	punct	1
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
+#C
