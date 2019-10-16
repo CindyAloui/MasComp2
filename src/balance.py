@@ -30,8 +30,10 @@ if __name__ == '__main__':
     seed2_train = get_set_from_file(sys.argv[2] + "-train.txt")
     seed2_dev = get_set_from_file(sys.argv[2] + "-dev.txt")
 
+    j = 0
     for filename in os.listdir(in_dir):
-        print(filename)
+        j += 1
+        print(j)
         if filename == "dev.mcf":
             print("ok")
             seed1 = seed1_dev

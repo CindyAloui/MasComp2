@@ -1,15 +1,34 @@
 #!/usr/bin/env bash
 
-SEED1="data/seeds/countability/COMPTABLES-200"
-SEED2="data/seeds/countability/MASSIFS-200"
+DIR_SEED="data/seeds/seeds-super-supersenses"
 INPUT_DIR="data/frWaC/mcf/"
-OUTPUT_DIR="data/frWaC/mcf_countability/"
+OUTPUT_DIR_BASE="data/frWaC/mcf_"
 
-echo "Countability"
+for filename in $DIR_SEED/seeds*; do
+    if [[ $filename != *".txt" ]]; then
+        f="$(basename -- $filename)"
+        SEED1=$DIR_SEED"/"$f
+        SEED2=$DIR_SEED"/not_"$f
+        OUTPUT_DIR=$OUTPUT_DIR_BASE$f
 
-rm -r $OUTPUT_DIR
-mkdir -p $OUTPUT_DIR
-python3 src/balance.py $SEED1 $SEED2 $INPUT_DIR $OUTPUT_DIR
+        echo $f
+        rm -r $OUTPUT_DIR
+        mkdir -p $OUTPUT_DIR
+        python3 src/balance.py $SEED1 $SEED2 $INPUT_DIR $OUTPUT_DIR
+    fi
+done
+
+#SEED1="data/seeds/supersenses/noun.act"
+#SEED2="data/seeds/supersenses/not_noun.act"
+#INPUT_DIR="data/frWaC/mcf/"
+#OUTPUT_DIR="data/frWaC/mcf_noun.act"
+#
+#echo "noun.act"
+#
+#rm -r $OUTPUT_DIR
+#mkdir -p $OUTPUT_DIR
+#python3 src/balance.py $SEED1 $SEED2 $INPUT_DIR $OUTPUT_DIR
+
 
 #
 #SEED1="data/seeds/animacy/200-ANIM.txt"

@@ -19,30 +19,39 @@ train_size_percent = 80.0
 # file_dev_seed1 = io.open("animacy/200-ANIM-dev.txt", "w", encoding="utf8")
 # file_dev_seed2 = io.open("animacy/200-INANIM-dev.txt", "w", encoding="utf8")
 
-for file in os.listdir("supersenses")
+for filename in os.listdir("seeds-super-supersenses/"):
+    if "seeds." in filename and "_seeds" not in filename:
+        file_seed1 = io.open("seeds-super-supersenses/" + filename, "r", encoding="utf8")
+        file_seed2 = io.open("seeds-super-supersenses/" + "not_" + filename, "r", encoding="utf8")
 
-seed1 = []
-seed2 = []
+        file_train_seed1 = io.open("seeds-super-supersenses/" + filename + "-train.txt", "w", encoding="utf8")
+        file_train_seed2 = io.open("seeds-super-supersenses/" + "not_" + filename + "-train.txt", "w", encoding="utf8")
 
-for line in file_seed1:
-    seed1.append(line[:-1])
-for line in file_seed2:
-    seed2.append(line[:-1])
+        file_dev_seed1 = io.open("seeds-super-supersenses/" + filename + "-dev.txt", "w", encoding="utf8")
+        file_dev_seed2 = io.open("seeds-super-supersenses/" + "not_" + filename + "-dev.txt", "w", encoding="utf8")
 
-shuffle(seed1)
-shuffle(seed2)
+        seed1 = []
+        seed2 = []
 
-train_size_seed1 = int(len(seed1) * train_size_percent / 100)
-train_size_seed2 = int(len(seed2) * train_size_percent / 100)
+        for line in file_seed1:
+            seed1.append(line[:-1])
+        for line in file_seed2:
+            seed2.append(line[:-1])
 
-train_seed1 = seed1[:train_size_seed1]
-train_seed2 = seed2[:train_size_seed2]
+        shuffle(seed1)
+        shuffle(seed2)
 
-dev_seed1 = seed1[train_size_seed1:]
-dev_seed2 = seed2[train_size_seed2:]
+        train_size_seed1 = int(len(seed1) * train_size_percent / 100)
+        train_size_seed2 = int(len(seed2) * train_size_percent / 100)
 
-write_nouns(file_dev_seed1, dev_seed1)
-write_nouns(file_dev_seed2, dev_seed2)
-write_nouns(file_train_seed1, train_seed1)
-write_nouns(file_train_seed2, train_seed2)
+        train_seed1 = seed1[:train_size_seed1]
+        train_seed2 = seed2[:train_size_seed2]
+
+        dev_seed1 = seed1[train_size_seed1:]
+        dev_seed2 = seed2[train_size_seed2:]
+
+        write_nouns(file_dev_seed1, dev_seed1)
+        write_nouns(file_dev_seed2, dev_seed2)
+        write_nouns(file_train_seed1, train_seed1)
+        write_nouns(file_train_seed2, train_seed2)
 
