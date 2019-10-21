@@ -93,6 +93,7 @@ def add_padding(words):
         if len(word) != max_len:
             print("BUG")
 
+
 def get_batch(file, class1, class2):
     words_left = []
     lemmas_left = []
@@ -240,6 +241,9 @@ class Classifier:
                 flag = True
                 while flag:
                     X, Y, flag = get_batch(file, class1, class2)
+                    print(X)
+                    print(Y)
+                    print("\n\n")
                     self.model.train_on_batch(X, np.array(Y))
                     current_epoch_size += len(X[0])
                     if current_epoch_size >= epochs_size:

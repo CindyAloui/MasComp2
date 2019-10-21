@@ -11,6 +11,8 @@ maxOcc = 50000
 occ = {}
 num = {}
 denum = {}
+gigasenses = {"Living_Animate_Entity", "Natural_Object", "Manufactured_Object", "Informational_Object",
+              "Dynamic_situation", "Stative_situation"}
 vocab_words = get_dir_from_file("data/vocabs/words")
 vocab_lemmas = get_dir_from_file("data/vocabs/lemmas")
 vocab_morphos = get_dir_from_file("data/vocabs/morphos")
@@ -19,7 +21,7 @@ nouns_finished = set()
 
 
 def print_usage_and_exit():
-    print("Usage: " + sys.argv[0] + " <modelName> <corpusDir> <nounsList>")
+    print("Usage: " + sys.argv[0] + " <corpusDir> <nounsList>")
     sys.exit(0)
 
 def add_padding(words):
@@ -109,13 +111,15 @@ def update(buffer, nouns):
         X = [np.array(words_left), np.array(lemmas_left), np.array(morphos_left),
              np.array(words_right), np.array(lemmas_right), np.array(morphos_right),
              np.array(morpho)]
-        predictions = model.predict(X)
-        for i in range(len(predictions)):
-            prediction = predictions[i][0]
-            w = n[i]
-            num[w] += prediction * pow(2.0 * (0.5 - prediction), exponent)
-            denum[w] += pow(2.0 * (0.5 - prediction), exponent)
-            occ[w] += 1
+        for g in gigasenses:
+            predictions = models[g].predict(X)
+            for i in range(len(predictions)):
+                prediction = predictions[i][0]
+                w = n[i]
+                num[w][g] += prediction * pow(2.0 * (0.5 - prediction), exponent)
+                denum[w][g] += pow(2.0 * (0.5 - prediction), exponent)
+
+        occ[w] += len(predictions)
             # if prediction > 0.95:
             #     occ[w] += 1
             #     num[w] += 1
@@ -126,26 +130,31 @@ def update(buffer, nouns):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 4:
+    if len(sys.argv) != 3:
         print_usage_and_exit()
-    model = load_model("models/" + sys.argv[1] + ".h5")
-    nouns = get_set_from_file(sys.argv[3])
+    models = {}
+    for g in gigasenses:
+        models[g] = load_model("models/seeds." + g + ".h5")
+    nouns = get_set_from_file(sys.argv[2])
     for n in nouns:
         occ[n] = 0
-        num[n] = 0
-        denum[n] = 0
-    directory = "data/lexicons/" + sys.argv[1]
+        num[n] = {}
+        denum[n] = {}
+        for g in gigasenses:
+            num[n][g] = 0
+            denum[n][g] = 0
+    directory = "data/lexicons/all"
     if not os.path.exists(directory):
         os.makedirs(directory)
-    name_of_list = os.path.basename(sys.argv[3])
+    name_of_list = os.path.basename(sys.argv[2])
     result_file = io.open(directory + "/" + name_of_list, 'w', encoding='utf8')
     i = 0
-    for filename in os.listdir(sys.argv[2]):
+    for filename in os.listdir(sys.argv[1]):
         i += 1
         print(i)
         if len(nouns) == len(nouns_finished):
             break
-        file = io.open(os.path.join(sys.argv[2], filename), "r", encoding='utf8')
+        file = io.open(os.path.join(sys.argv[1], filename), "r", encoding='utf8')
         buffer = ""
         for line in file:
             tmp = line.split("\t")
@@ -155,8 +164,11 @@ if __name__ == '__main__':
                     update(buffer, nouns)
                     buffer = ''
     for n in nouns:
-        if denum[n] == 0:
-            print(n)
-            continue
-        r = num[n]/denum[n]
-        result_file.write(n + "\t" + str(r) + "\n")
+        result_file.write(n)
+        for g in gigasenses:
+            if denum[n][g] == 0:
+                print(n)
+                continue
+            r = num[n][g]/denum[n][g]
+            result_file.write("\t" + str(r))
+        result_file.write("\n")
