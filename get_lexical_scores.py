@@ -7,7 +7,7 @@ import numpy as np
 from math import pow
 
 exponent = 16
-maxOcc = 50000
+maxOcc = 10000
 occ = {}
 num = {}
 denum = {}
@@ -81,7 +81,7 @@ def update(buffer, nouns):
                 if (occ[current_nouns[i]] > maxOcc) and (current_nouns[i] not in nouns_finished):
                     print(current_nouns[i])
                     nouns_finished.add(current_nouns[i])
-
+                    print(str(len(nouns) - len(nouns_finished)) + " nouns left.")
                 if len(new_positions_left) >= position_size or len(new_positions_right) >= position_size or \
                         occ[current_nouns[i]] > maxOcc:
                     continue
@@ -118,8 +118,7 @@ def update(buffer, nouns):
                 w = n[i]
                 num[w][g] += prediction * pow(2.0 * (0.5 - prediction), exponent)
                 denum[w][g] += pow(2.0 * (0.5 - prediction), exponent)
-
-        occ[w] += len(predictions)
+                occ[w] += 1
             # if prediction > 0.95:
             #     occ[w] += 1
             #     num[w] += 1
@@ -143,7 +142,7 @@ if __name__ == '__main__':
         for g in gigasenses:
             num[n][g] = 0
             denum[n][g] = 0
-    directory = "data/lexicons/all"
+    directory = "data/lexicons/all_version1"
     if not os.path.exists(directory):
         os.makedirs(directory)
     name_of_list = os.path.basename(sys.argv[2])
@@ -151,8 +150,8 @@ if __name__ == '__main__':
     i = 0
     for filename in os.listdir(sys.argv[1]):
         i += 1
-        print(i)
-        if len(nouns) == len(nouns_finished):
+        print("File " + str(i))
+        if len(nouns) - len(nouns_finished) == 1:
             break
         file = io.open(os.path.join(sys.argv[1], filename), "r", encoding='utf8')
         buffer = ""
@@ -163,6 +162,9 @@ if __name__ == '__main__':
                 if tmp[6] == "1\n":
                     update(buffer, nouns)
                     buffer = ''
+                if (len(nouns) - len(nouns_finished) == 0):
+                    break
+
     for n in nouns:
         result_file.write(n)
         for g in gigasenses:

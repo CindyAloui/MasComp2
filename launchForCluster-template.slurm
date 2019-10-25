@@ -1,7 +1,7 @@
 #! /bin/bash
 #SBATCH -J __NAME__
 #SBATCH -p skylake
-#SBATCH -N 3
+#SBATCH -N 2
 #SBATCH --ntasks-per-node=3
 #SBATCH -t 5-00
 #SBATCH -o %x.stdout
