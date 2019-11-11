@@ -34,9 +34,13 @@ for filename in os.listdir("seeds-super-supersenses/"):
         seed2 = []
 
         for line in file_seed1:
-            seed1.append(line[:-1])
+            if line.strip() == '':
+                continue
+            seed1.append(line.strip())
         for line in file_seed2:
-            seed2.append(line[:-1])
+            if line.strip() == '':
+                continue
+            seed2.append(line.strip())
 
         shuffle(seed1)
         shuffle(seed2)

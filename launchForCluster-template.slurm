@@ -3,7 +3,7 @@
 #SBATCH -p skylake
 #SBATCH -N 2
 #SBATCH --ntasks-per-node=3
-#SBATCH -t 5-00
+#SBATCH -t 2-12
 #SBATCH -o %x.stdout
 #SBATCH -e %x.stderr
 

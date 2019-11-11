@@ -21,7 +21,8 @@ def get_set_from_file(filename):
     file = io.open(filename, "r", encoding="utf8")
     list = set()
     for line in file:
-        list.add(line[:-1])
+        line = line.split()
+        list.add(line[0])
     return list
 
 

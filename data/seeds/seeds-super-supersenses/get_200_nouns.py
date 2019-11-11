@@ -2,17 +2,38 @@ import io
 import os
 from random import shuffle
 
+supersenses = {}
 for filename in os.listdir("."):
-    if "not_" in filename:
-        l = []
+    if ".py" not in filename:
         file = io.open(filename, "r", encoding="utf8")
+        supersenses[filename] = []
         for line in file:
-            l.append(line)
-        shuffle(l)
-        print(filename)
-        file = io.open(filename, "w", encoding="utf8")
-        for i in range(200):
-            file.write(l[i])
+            if line.strip() == '':
+                continue
+            supersenses[filename].append(line.strip())
+
+for g1 in supersenses:
+    file = io.open("not_" + g1, "w", encoding="utf8")
+    l = []
+    for g2 in supersenses:
+        if g1 == g2:
+            continue
+        l.extend(supersenses[g2])
+    shuffle(l)
+    for i in range(200):
+        file.write(l[i] + "\n")
+
+# for filename in os.listdir("."):
+#     if "not_" in filename:
+#         l = []
+#         file = io.open(filename, "r", encoding="utf8")
+#         for line in file:
+#             l.append(line)
+#         shuffle(l)
+#         print(filename)
+#         file = io.open(filename, "w", encoding="utf8")
+#         for i in range(200):
+#             file.write(l[i])
 
 # file = io.open("all_nouns_with_supersenses.txt", "r", encoding="utf8")
 # words = {}

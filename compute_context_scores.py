@@ -7,12 +7,19 @@ import numpy as np
 from math import pow
 
 exponent = 16
-maxOcc = 10000
 occ = {}
 num = {}
 denum = {}
 gigasenses = {"Living_Animate_Entity", "Natural_Object", "Manufactured_Object", "Informational_Object",
               "Dynamic_situation", "Stative_situation"}
+
+for g in gigasenses:
+    print(g)
+print("\n")
+
+for g in gigasenses:
+    print(g)
+exit(0)
 vocab_words = get_dir_from_file("data/vocabs/words")
 vocab_lemmas = get_dir_from_file("data/vocabs/lemmas")
 vocab_morphos = get_dir_from_file("data/vocabs/morphos")
@@ -21,7 +28,7 @@ nouns_finished = set()
 
 
 def print_usage_and_exit():
-    print("Usage: " + sys.argv[0] + " <corpusDir> <nounsList>")
+    print("Usage: " + sys.argv[0] + "<nounsList> <corpusDir> ")
     sys.exit(0)
 
 def add_padding(words):
@@ -39,7 +46,7 @@ def add_padding(words):
             print("BUG")
 
 
-def update(buffer, nouns):
+def update(buffer, nouns, result_file):
     current_words = []
     current_lemmas = []
     current_morphos = []
@@ -78,12 +85,7 @@ def update(buffer, nouns):
                     if p > word_positions[i]:
                         new_positions_right.append(abs(p - word_positions[i]))
 
-                if (occ[current_nouns[i]] > maxOcc) and (current_nouns[i] not in nouns_finished):
-                    print(current_nouns[i])
-                    nouns_finished.add(current_nouns[i])
-                    print(str(len(nouns) - len(nouns_finished)) + " nouns left.")
-                if len(new_positions_left) >= position_size or len(new_positions_right) >= position_size or \
-                        occ[current_nouns[i]] > maxOcc:
+                if len(new_positions_left) >= position_size or len(new_positions_right) >= position_size:
                     continue
                 n.append(current_nouns[i])
                 words_left.append(current_words[:word_positions[i]])
@@ -111,16 +113,21 @@ def update(buffer, nouns):
         X = [np.array(words_left), np.array(lemmas_left), np.array(morphos_left),
              np.array(words_right), np.array(lemmas_right), np.array(morphos_right),
              np.array(morpho)]
+
+        predictions = {}
         for g in gigasenses:
-            predictions = models[g].predict(X)
-            for i in range(len(predictions)):
-                prediction = predictions[i][0]
-                w = n[i]
-                if prediction > 0.5:
-                    num[w][g] += 1
+            predictions[g] = models[g].predict(X)
+        for i in range(len(n)):
+            result_file.write(n[i] + "\t")
+            for g in gigasenses:
+                prediction = predictions[g][i][0]
+                result_file.write(str(prediction) + "\t")
+            result_file.write("\n")
+                # if prediction > 0.5:
+                #     num[w][g] += 1
                 # num[w][g] += prediction * pow(2.0 * (0.5 - prediction), exponent)
                 # denum[w][g] += pow(2.0 * (0.5 - prediction), exponent)
-                occ[w] += 1
+                # occ[w] += 1
             # if prediction > 0.95:
             #     occ[w] += 1
             #     num[w] += 1
@@ -136,7 +143,7 @@ if __name__ == '__main__':
     models = {}
     for g in gigasenses:
         models[g] = load_model("models/seeds." + g + ".h5")
-    nouns = get_set_from_file(sys.argv[2])
+    nouns = get_set_from_file(sys.argv[1])
     for n in nouns:
         occ[n] = 0
         num[n] = {}
@@ -144,35 +151,34 @@ if __name__ == '__main__':
         for g in gigasenses:
             num[n][g] = 0
             denum[n][g] = 0
-    directory = "data/lexicons/all_version1"
+    directory = "data/contexts/version2"
     if not os.path.exists(directory):
         os.makedirs(directory)
-    name_of_list = os.path.basename(sys.argv[2])
-    result_file = io.open(directory + "/" + name_of_list, 'w', encoding='utf8')
-    i = 0
-    for filename in os.listdir(sys.argv[1]):
-        i += 1
-        print("File " + str(i))
-        if len(nouns) - len(nouns_finished) == 1:
-            break
-        file = io.open(os.path.join(sys.argv[1], filename), "r", encoding='utf8')
-        buffer = ""
-        for line in file:
-            tmp = line.split("\t")
-            if len(tmp) == 7:
-                buffer += line
-                if tmp[6] == "1\n":
-                    update(buffer, nouns)
-                    buffer = ''
-                if len(nouns) - len(nouns_finished) == 0:
-                    break
+    # name_of_list = os.path.basename(sys.argv[2])
+    mcf_filename = sys.argv[2]
+    result_file = io.open(directory + "/" + os.path.basename(mcf_filename[:-4]), 'w', encoding='utf8')
+    # i = 0
+    # for filename in os.listdir(sys.argv[1]):
+    #     i += 1
+    #     print("File " + str(i))
+    file = io.open(os.path.join("data/frWaC/10000-nouns-mcf", mcf_filename), "r", encoding='utf8')
+    buffer = ""
+    for line in file:
+        tmp = line.split("\t")
+        if len(tmp) == 7:
+            buffer += line
+            if tmp[6] == "1\n":
+                update(buffer, nouns, result_file)
+                buffer = ''
+            if len(nouns) - len(nouns_finished) == 0:
+                break
 
-    for n in nouns:
-        result_file.write(n)
-        for g in gigasenses:
-            if denum[n][g] == 0:
-                print(n)
-                continue
-            r = num[n][g]/occ[n]
-            result_file.write("\t" + str(r))
-        result_file.write("\n")
+    # for n in nouns:
+    #     result_file.write(n)
+    #     for g in gigasenses:
+    #         if denum[n][g] == 0:
+    #             print(n)
+    #             continue
+    #         r = num[n][g]/occ[n]
+    #         result_file.write("\t" + str(r))
+    #     result_file.write("\n")

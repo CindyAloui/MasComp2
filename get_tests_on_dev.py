@@ -39,10 +39,13 @@ def add_padding(words):
         if len(word) != max_len:
             print("BUG")
 
-def sentence(l):
+def sentence(l, p):
     r = ''
-    for w in l:
-        r += w + ' '
+    for i in range(len(l)):
+        if i == p:
+            r += '[[' + l[i] + "]" + ' '
+        else:
+            r += l[i] + ' '
     return r
 
 def update(buffer, g):
@@ -98,7 +101,7 @@ def update(buffer, g):
                 lemmas_right.append(list(reversed(current_lemmas[word_positions[i] + 1:])))
                 morphos_right.append(list(reversed(current_morphos[word_positions[i] + 1:])))
                 morpho.append([current_morphos[word_positions[i]]])
-                s.append(sentence(tmp))
+                s.append(sentence(tmp, word_positions[i]))
             tmp = []
             word_positions = []
             current_words = []
@@ -198,6 +201,8 @@ if __name__ == '__main__':
             result_file.write(errors[g]["pos"][i] + "\n")
         result_file.write("\n\n\n\tSur des contextes devant être prédits comme n'appartenant pas au super-supersense:\n\n ")
         for i in range(10):
+            if i >= len(errors[g]["neg"]):
+                continue
             result_file.write(errors[g]["neg"][i] + "\n")
 
         result_file.write("\n\n-----------------------------------------------------------\n"
