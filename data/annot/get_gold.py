@@ -2,7 +2,7 @@ import io
 import os
 import csv
 
-col = ["Noun", "Living_Animate_Entity", "Manufactured_Object", "Natural_Object", "Informational_Object",
+col = ["NOUN", "Living_Animate_Entity", "Manufactured_Object", "Natural_Object", "Informational_Object",
               "Stative_situation", "Dynamic_situation"]
 
 csv_file = io.open("Annotation-eval-grille-MERGE.csv", "r", encoding='utf8')

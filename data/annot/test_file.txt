@@ -1,4 +1,4 @@
-Noun	Living_Animate_Entity	Manufactured_Object	Natural_Object	Informational_Object	Stative_situation	Dynamic_situation	
+NOUN	Living_Animate_Entity	Manufactured_Object	Natural_Object	Informational_Object	Stative_situation	Dynamic_situation
 complément	0	0	0	1	0	0	
 auditorium	0	1	0	0	0	0	
 localité	0	1	0	0	0	0	
